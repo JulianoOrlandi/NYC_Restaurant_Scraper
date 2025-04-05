@@ -1,0 +1,12 @@
+# Ambiente virtual
+venv/
+
+# Arquivos compilados do Python
+*.pyc
+__pycache__/
+
+# Arquivos do sistema operacional (exemplo para macOS)
+.DS_Store
+
+# Outros arquivos temporários ou de configuração que podem ser gerados pelo editor
+.vscode/
