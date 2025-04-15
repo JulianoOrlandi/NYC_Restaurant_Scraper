@@ -1,0 +1,3736 @@
+[
+    {
+        "types": [
+            "dessert_shop",
+            "confectionery",
+            "food_store",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 971-1900",
+        "internationalPhoneNumber": "+1 718-971-1900",
+        "formattedAddress": "7507 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.509371699999996,
+            "longitude": -74.2463989
+        },
+        "rating": 4.8,
+        "googleMapsUri": "https://maps.google.com/?cid=7621814910959519173",
+        "userRatingCount": 33,
+        "displayName": {
+            "text": "The Creperie Corner",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Dessert Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "dessert_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cb9a54a2b7ed:0x69c62047878485c5!3e0",
+            "placeUri": "https://maps.google.com/?cid=7621814910959519173",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb9a54a2b7ed:0x69c62047878485c5!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cb9a54a2b7ed:0x69c62047878485c5!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb9a54a2b7ed:0x69c62047878485c5!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1429",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7507 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 489-0991",
+        "internationalPhoneNumber": "+1 718-489-0991",
+        "formattedAddress": "233 Main St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.509548699999996,
+            "longitude": -74.24706019999999
+        },
+        "rating": 5,
+        "googleMapsUri": "https://maps.google.com/?cid=1241466154012135934",
+        "userRatingCount": 5,
+        "displayName": {
+            "text": "The Spot In Tottenville",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Food Store",
+            "languageCode": "en-US"
+        },
+        "primaryType": "food_store",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cb8d92ebbb87:0x113a92e3b69051fe!3e0",
+            "placeUri": "https://maps.google.com/?cid=1241466154012135934",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb8d92ebbb87:0x113a92e3b69051fe!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cb8d92ebbb87:0x113a92e3b69051fe!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb8d92ebbb87:0x113a92e3b69051fe!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "233 Main St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "mexican_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-2444",
+        "internationalPhoneNumber": "+1 718-227-2444",
+        "formattedAddress": "7528 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.508952799999996,
+            "longitude": -74.24675069999999
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=6725374669765518940",
+        "websiteUri": "https://taqueriatresamigos.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 271,
+        "displayName": {
+            "text": "Tres Amigos Taqueria & Restaurant",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Mexican Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "mexican_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cb1c01328a43:0x5d5554a12cc8a65c!3e0",
+            "placeUri": "https://maps.google.com/?cid=6725374669765518940",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb1c01328a43:0x5d5554a12cc8a65c!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cb1c01328a43:0x5d5554a12cc8a65c!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb1c01328a43:0x5d5554a12cc8a65c!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7528 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-9300",
+        "internationalPhoneNumber": "+1 718-356-9300",
+        "formattedAddress": "7517 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5092828,
+            "longitude": -74.24661309999999
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=17867573266331304703",
+        "websiteUri": "https://www.ordermangiamenu.com/?utm_source=gbp",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 221,
+        "displayName": {
+            "text": "Mangia",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca995aad4c25:0xf7f65f3821f182ff!3e0",
+            "placeUri": "https://maps.google.com/?cid=17867573266331304703",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca995aad4c25:0xf7f65f3821f182ff!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca995aad4c25:0xf7f65f3821f182ff!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca995aad4c25:0xf7f65f3821f182ff!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "30"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7517 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-3501",
+        "internationalPhoneNumber": "+1 718-356-3501",
+        "formattedAddress": "722 Rockaway St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.499243199999995,
+            "longitude": -74.2390059
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=10376182995744753772",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 223,
+        "displayName": {
+            "text": "Coral Bay Cafe",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!3e0",
+            "placeUri": "https://maps.google.com/?cid=10376182995744753772",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1817",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "722 Rockaway St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "gas_station",
+            "atm",
+            "convenience_store",
+            "finance",
+            "food_store",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 984-8440",
+        "internationalPhoneNumber": "+1 718-984-8440",
+        "formattedAddress": "6778 Hylan Blvd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.50754,
+            "longitude": -74.22966
+        },
+        "rating": 2.6,
+        "googleMapsUri": "https://maps.google.com/?cid=4190290374287202787",
+        "websiteUri": "https://find.shell.com/us/fuel/12850693-6778-hylan-blvd/en_US",
+        "userRatingCount": 5,
+        "displayName": {
+            "text": "Shell",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Gas Station",
+            "languageCode": "en-US"
+        },
+        "primaryType": "gas_station",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cbdce37650a3:0x3a26e6e4f12099e3!3e0",
+            "placeUri": "https://maps.google.com/?cid=4190290374287202787",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbdce37650a3:0x3a26e6e4f12099e3!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cbdce37650a3:0x3a26e6e4f12099e3!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbdce37650a3:0x3a26e6e4f12099e3!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "6778 Hylan Blvd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "mexican_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 966-2695",
+        "internationalPhoneNumber": "+1 718-966-2695",
+        "formattedAddress": "167 Main St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5109187,
+            "longitude": -74.2485147
+        },
+        "rating": 4.1,
+        "googleMapsUri": "https://maps.google.com/?cid=11439394971166843407",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 170,
+        "displayName": {
+            "text": "Taqueria Oaxaca",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Mexican Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "mexican_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9c125174d3:0x9ec0e51e25ca220f!3e0",
+            "placeUri": "https://maps.google.com/?cid=11439394971166843407",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9c125174d3:0x9ec0e51e25ca220f!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9c125174d3:0x9ec0e51e25ca220f!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9c125174d3:0x9ec0e51e25ca220f!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1226",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "167 Main St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "meal_takeaway",
+            "meal_delivery",
+            "food_delivery",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-1985",
+        "internationalPhoneNumber": "+1 718-227-1985",
+        "formattedAddress": "5373 Arthur Kill Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.513504999999995,
+            "longitude": -74.2481014
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=6089757019905923269",
+        "websiteUri": "http://townedelipizzasi.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 700,
+        "displayName": {
+            "text": "Towne Deli & Pizzeria",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9dc4b15fd9:0x548329bea3ef18c5!3e0",
+            "placeUri": "https://maps.google.com/?cid=6089757019905923269",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9dc4b15fd9:0x548329bea3ef18c5!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9dc4b15fd9:0x548329bea3ef18c5!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9dc4b15fd9:0x548329bea3ef18c5!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1152",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "5373 Arthur Kill Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "deli",
+            "food_store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 948-1758",
+        "internationalPhoneNumber": "+1 718-948-1758",
+        "formattedAddress": "180 Main St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.510566700000005,
+            "longitude": -74.24854119999999
+        },
+        "rating": 4,
+        "googleMapsUri": "https://maps.google.com/?cid=13890162951669460513",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 106,
+        "displayName": {
+            "text": "Cracker Barrel Deli",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Deli",
+            "languageCode": "en-US"
+        },
+        "primaryType": "deli",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9c0c8ec197:0xc0c3c59c7e8cae21!3e0",
+            "placeUri": "https://maps.google.com/?cid=13890162951669460513",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9c0c8ec197:0xc0c3c59c7e8cae21!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9c0c8ec197:0xc0c3c59c7e8cae21!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9c0c8ec197:0xc0c3c59c7e8cae21!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "1"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1227",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "180 Main St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "seafood_restaurant",
+            "brunch_restaurant",
+            "dessert_restaurant",
+            "sports_club",
+            "event_venue",
+            "bar_and_grill",
+            "restaurant",
+            "bar",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(845) 827-3460",
+        "internationalPhoneNumber": "+1 845-827-3460",
+        "formattedAddress": "225 Ellis St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.515519399999995,
+            "longitude": -74.24934979999999
+        },
+        "rating": 4,
+        "googleMapsUri": "https://maps.google.com/?cid=1890050969035067112",
+        "websiteUri": "https://paradiseislandsiny.org/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 177,
+        "displayName": {
+            "text": "Paradise Island",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Seafood Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "seafood_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!3e0",
+            "placeUri": "https://maps.google.com/?cid=1890050969035067112",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1128",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "225 Ellis St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-2900",
+        "internationalPhoneNumber": "+1 718-227-2900",
+        "formattedAddress": "399 Ellis St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.513480699999995,
+            "longitude": -74.2515884
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=15654868475702358741",
+        "websiteUri": "http://angelinasristorante.com/",
+        "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+        "userRatingCount": 930,
+        "displayName": {
+            "text": "Angelina's Restaurant",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!3e0",
+            "placeUri": "https://maps.google.com/?cid=15654868475702358741",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "399 Ellis St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "chinese_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-5168",
+        "internationalPhoneNumber": "+1 718-356-5168",
+        "formattedAddress": "175 Main St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5107736,
+            "longitude": -74.2482624
+        },
+        "rating": 4.6,
+        "googleMapsUri": "https://maps.google.com/?cid=7838756667406262025",
+        "websiteUri": "http://kimsislandsi.com/",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 96,
+        "displayName": {
+            "text": "Kim's Island",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Chinese Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "chinese_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9c11f90c25:0x6cc8dba851799f09!3e0",
+            "placeUri": "https://maps.google.com/?cid=7838756667406262025",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9c11f90c25:0x6cc8dba851799f09!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9c11f90c25:0x6cc8dba851799f09!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9c11f90c25:0x6cc8dba851799f09!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1226",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "175 Main St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-7200",
+        "internationalPhoneNumber": "+1 718-227-7200",
+        "formattedAddress": "7324 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.510988,
+            "longitude": -74.2413948
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=17273815899986538932",
+        "websiteUri": "http://delucasitalian.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 688,
+        "displayName": {
+            "text": "Deluca's Italian Restaurant",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!3e0",
+            "placeUri": "https://maps.google.com/?cid=17273815899986538932",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1401",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7324 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "restaurant",
+            "brunch_restaurant",
+            "coffee_shop",
+            "cafe",
+            "breakfast_restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 554-4039",
+        "internationalPhoneNumber": "+1 718-554-4039",
+        "formattedAddress": "20 Ellis St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.51734,
+            "longitude": -74.2409737
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=5926800382454105998",
+        "websiteUri": "http://www.finasfarmhousesi.net/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 156,
+        "displayName": {
+            "text": "Fina's Farmhouse",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b51b94684783:0x5240398bdad3878e!3e0",
+            "placeUri": "https://maps.google.com/?cid=5926800382454105998",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b51b94684783:0x5240398bdad3878e!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b51b94684783:0x5240398bdad3878e!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b51b94684783:0x5240398bdad3878e!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "20 Ellis St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(347) 983-4998",
+        "internationalPhoneNumber": "+1 347-983-4998",
+        "formattedAddress": "240 Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.518107900000004,
+            "longitude": -74.2355185
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=2395665396244567976",
+        "websiteUri": "https://campaniacoalfiredpizza.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 462,
+        "displayName": {
+            "text": "Campania Coal-Fired Pizza",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55eadafa3c5:0x213f1cfc2fda57a8!3e0",
+            "placeUri": "https://maps.google.com/?cid=2395665396244567976",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55eadafa3c5:0x213f1cfc2fda57a8!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55eadafa3c5:0x213f1cfc2fda57a8!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55eadafa3c5:0x213f1cfc2fda57a8!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "30"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "240 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 554-4134",
+        "internationalPhoneNumber": "+1 718-554-4134",
+        "formattedAddress": "7423 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5100828,
+            "longitude": -74.2439936
+        },
+        "rating": 4.6,
+        "googleMapsUri": "https://maps.google.com/?cid=11340614337478674692",
+        "websiteUri": "http://gigiscafesi.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 89,
+        "displayName": {
+            "text": "Gigi's Cafe & Keke's Pizzeria",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9f28c43c65:0x9d61f4a7a01e4904!3e0",
+            "placeUri": "https://maps.google.com/?cid=11340614337478674692",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f28c43c65:0x9d61f4a7a01e4904!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9f28c43c65:0x9d61f4a7a01e4904!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f28c43c65:0x9d61f4a7a01e4904!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "1"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7423 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "bagel_shop",
+            "breakfast_restaurant",
+            "deli",
+            "bakery",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 984-9700",
+        "internationalPhoneNumber": "+1 718-984-9700",
+        "formattedAddress": "7420 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.509875799999996,
+            "longitude": -74.2437894
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=8736389301851372313",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 213,
+        "displayName": {
+            "text": "Mikey Bagels",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Bagel Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "bagel_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9f2db61eb7:0x793de3c85c5fbb19!3e0",
+            "placeUri": "https://maps.google.com/?cid=8736389301851372313",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f2db61eb7:0x793de3c85c5fbb19!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9f2db61eb7:0x793de3c85c5fbb19!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f2db61eb7:0x793de3c85c5fbb19!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "1"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1421",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7420 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "italian_restaurant",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 984-9886",
+        "internationalPhoneNumber": "+1 718-984-9886",
+        "formattedAddress": "7001 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5166363,
+            "longitude": -74.2344864
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=1445941993664258346",
+        "websiteUri": "https://www.villamontepizza.com/villa-monte-south-tottenville-10307",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 229,
+        "displayName": {
+            "text": "Villa Monte Pizzeria South",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5593ceaaaab:0x14110495122da12a!3e0",
+            "placeUri": "https://maps.google.com/?cid=1445941993664258346",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5593ceaaaab:0x14110495122da12a!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5593ceaaaab:0x14110495122da12a!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5593ceaaaab:0x14110495122da12a!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7001 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 554-4615",
+        "internationalPhoneNumber": "+1 718-554-4615",
+        "formattedAddress": "7331 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.511152800000005,
+            "longitude": -74.2417001
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=1548578039434194335",
+        "websiteUri": "https://www.facebook.com/Danisitalianbistro",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 105,
+        "displayName": {
+            "text": "Dani's Italian Bistro",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9f7c7f0c1b:0x157da785ab722d9f!3e0",
+            "placeUri": "https://maps.google.com/?cid=1548578039434194335",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f7c7f0c1b:0x157da785ab722d9f!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9f7c7f0c1b:0x157da785ab722d9f!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f7c7f0c1b:0x157da785ab722d9f!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1425",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7331 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 554-4134",
+        "internationalPhoneNumber": "+1 718-554-4134",
+        "formattedAddress": "7423 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5100248,
+            "longitude": -74.24392569999999
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=2773010682971819604",
+        "websiteUri": "https://www.kekesgrabngo.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 74,
+        "displayName": {
+            "text": "Keke's Grab N' Go",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9f2f3a6737:0x267bb6862ce60e54!3e0",
+            "placeUri": "https://maps.google.com/?cid=2773010682971819604",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f2f3a6737:0x267bb6862ce60e54!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9f2f3a6737:0x267bb6862ce60e54!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9f2f3a6737:0x267bb6862ce60e54!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7423 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "chinese_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-0100",
+        "internationalPhoneNumber": "+1 718-227-0100",
+        "formattedAddress": "7226 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.512152,
+            "longitude": -74.239057
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=4013201016334636893",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 130,
+        "displayName": {
+            "text": "Chef Hong II",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Chinese Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "chinese_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3caa05b7edbb1:0x37b1c10fbedcd75d!3e0",
+            "placeUri": "https://maps.google.com/?cid=4013201016334636893",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3caa05b7edbb1:0x37b1c10fbedcd75d!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3caa05b7edbb1:0x37b1c10fbedcd75d!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3caa05b7edbb1:0x37b1c10fbedcd75d!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1408",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7226 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "fast_food_restaurant",
+            "coffee_shop",
+            "sandwich_shop",
+            "hamburger_restaurant",
+            "cafe",
+            "breakfast_restaurant",
+            "american_restaurant",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-2483",
+        "internationalPhoneNumber": "+1 718-227-2483",
+        "formattedAddress": "260 Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.51773620000001,
+            "longitude": -74.23475169999999
+        },
+        "rating": 3.3,
+        "googleMapsUri": "https://maps.google.com/?cid=14157135854660312415",
+        "websiteUri": "https://www.mcdonalds.com/us/en-us/location/NY/STATEN-ISLAND/260-PAGE-AVENUE/25479.html?cid=RF:YXT:GMB::Clicks",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 832,
+        "displayName": {
+            "text": "McDonald's",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Fast Food Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "fast_food_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5595bb1233b:0xc478400d55f95d5f!3e0",
+            "placeUri": "https://maps.google.com/?cid=14157135854660312415",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5595bb1233b:0xc478400d55f95d5f!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5595bb1233b:0xc478400d55f95d5f!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5595bb1233b:0xc478400d55f95d5f!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "1"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "260 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "sandwich_shop",
+            "fast_food_restaurant",
+            "catering_service",
+            "food_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-0662",
+        "internationalPhoneNumber": "+1 718-356-0662",
+        "formattedAddress": "303 A Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5169606,
+            "longitude": -74.2333084
+        },
+        "rating": 4,
+        "googleMapsUri": "https://maps.google.com/?cid=7542854708763720023",
+        "websiteUri": "https://restaurants.subway.com/united-states/ny/staten-island/303-a-page-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=11305&utm_campaign=evergreen-2020&y_source=1_MTQ4OTczNDEtNzE1LWxvY2F0aW9uLndlYnNpdGU=",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 88,
+        "displayName": {
+            "text": "Subway",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Sandwich Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "sandwich_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5596d1ef5d7:0x68ad9a64d43e7957!3e0",
+            "placeUri": "https://maps.google.com/?cid=7542854708763720023",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5596d1ef5d7:0x68ad9a64d43e7957!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5596d1ef5d7:0x68ad9a64d43e7957!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5596d1ef5d7:0x68ad9a64d43e7957!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "303 A Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "japanese_restaurant",
+            "sushi_restaurant",
+            "asian_restaurant",
+            "steak_house",
+            "seafood_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 608-8809",
+        "internationalPhoneNumber": "+1 718-608-8809",
+        "formattedAddress": "240 Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5179712,
+            "longitude": -74.2361823
+        },
+        "rating": 4.1,
+        "googleMapsUri": "https://maps.google.com/?cid=2509908360271041852",
+        "websiteUri": "http://mizuhibachi.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 206,
+        "displayName": {
+            "text": "Mizu Japanese Restaurant",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Japanese Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "japanese_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55be3b9cdc1:0x22d4fc5b08bd153c!3e0",
+            "placeUri": "https://maps.google.com/?cid=2509908360271041852",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55be3b9cdc1:0x22d4fc5b08bd153c!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55be3b9cdc1:0x22d4fc5b08bd153c!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55be3b9cdc1:0x22d4fc5b08bd153c!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "240 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "chinese_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 966-1900",
+        "internationalPhoneNumber": "+1 718-966-1900",
+        "formattedAddress": "240 Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5179712,
+            "longitude": -74.2361823
+        },
+        "rating": 3.4,
+        "googleMapsUri": "https://maps.google.com/?cid=7949214319493812592",
+        "websiteUri": "https://www.pekingtastepage.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 77,
+        "displayName": {
+            "text": "Peking Taste",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Chinese Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "chinese_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55eb236d447:0x6e51484e8ce09170!3e0",
+            "placeUri": "https://maps.google.com/?cid=7949214319493812592",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55eb236d447:0x6e51484e8ce09170!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55eb236d447:0x6e51484e8ce09170!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55eb236d447:0x6e51484e8ce09170!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "240 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "mexican_restaurant",
+            "brunch_restaurant",
+            "fast_food_restaurant",
+            "catering_service",
+            "food_delivery",
+            "bar_and_grill",
+            "bar",
+            "american_restaurant",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-1481",
+        "internationalPhoneNumber": "+1 718-356-1481",
+        "formattedAddress": "7001 Amboy Rd Unit 106, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.516973899999996,
+            "longitude": -74.2341608
+        },
+        "rating": 4.1,
+        "googleMapsUri": "https://maps.google.com/?cid=16260111454642626451",
+        "websiteUri": "https://locations.qdoba.com/us/ny/staten-island/7001-amboy-rd?utm_medium=organic&utm_source=google&utm_campaign=1279_2024_all_seo_google_maps_local&utm_content=website&utm_term=2863",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 293,
+        "displayName": {
+            "text": "QDOBA Mexican Eats",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Mexican Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "mexican_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55922d333fb:0xe1a78537de3bdf93!3e0",
+            "placeUri": "https://maps.google.com/?cid=16260111454642626451",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55922d333fb:0xe1a78537de3bdf93!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55922d333fb:0xe1a78537de3bdf93!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55922d333fb:0xe1a78537de3bdf93!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7001 Amboy Rd Unit 106"
+            ]
+        }
+    },
+    {
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-0327",
+        "internationalPhoneNumber": "+1 718-227-0327",
+        "formattedAddress": "240 Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5179712,
+            "longitude": -74.2361823
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=14231617412995987301",
+        "websiteUri": "https://www.facebook.com/e2-Caf%C3%A9-104562222914018/?ref=page_internal",
+        "userRatingCount": 33,
+        "displayName": {
+            "text": "E Squared Cafe & Hookah Lounge",
+            "languageCode": "en"
+        },
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55be273eebd:0xc580dca280e3b765!3e0",
+            "placeUri": "https://maps.google.com/?cid=14231617412995987301",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55be273eebd:0xc580dca280e3b765!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55be273eebd:0xc580dca280e3b765!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55be273eebd:0xc580dca280e3b765!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "240 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 709-0307",
+        "internationalPhoneNumber": "+1 718-709-0307",
+        "formattedAddress": "311 Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5168177,
+            "longitude": -74.2330848
+        },
+        "rating": 4.1,
+        "googleMapsUri": "https://maps.google.com/?cid=17338915618528215680",
+        "websiteUri": "http://nonnaspizzaonline.com/",
+        "userRatingCount": 54,
+        "displayName": {
+            "text": "Nonna's Pizza Tottenville",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b52a4e2903bd:0xf0a033e3b8d8c280!3e0",
+            "placeUri": "https://maps.google.com/?cid=17338915618528215680",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b52a4e2903bd:0xf0a033e3b8d8c280!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b52a4e2903bd:0xf0a033e3b8d8c280!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b52a4e2903bd:0xf0a033e3b8d8c280!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "311 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "bar_and_grill",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 948-9412",
+        "internationalPhoneNumber": "+1 718-948-9412",
+        "formattedAddress": "7001 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5163194,
+            "longitude": -74.2343482
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=3739265555743346260",
+        "websiteUri": "http://instagram.com/wsbargrillsi",
+        "userRatingCount": 108,
+        "displayName": {
+            "text": "W's Bar And Grill",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Bar & Grill",
+            "languageCode": "en-US"
+        },
+        "primaryType": "bar_and_grill",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55922d333fb:0x33e48a3622ef8e54!3e0",
+            "placeUri": "https://maps.google.com/?cid=3739265555743346260",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55922d333fb:0x33e48a3622ef8e54!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55922d333fb:0x33e48a3622ef8e54!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55922d333fb:0x33e48a3622ef8e54!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1400",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7001 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "juice_shop",
+            "sandwich_shop",
+            "fast_food_restaurant",
+            "cafe",
+            "breakfast_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-2333",
+        "internationalPhoneNumber": "+1 718-227-2333",
+        "formattedAddress": "7001 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.516838,
+            "longitude": -74.234298
+        },
+        "rating": 4,
+        "googleMapsUri": "https://maps.google.com/?cid=2052497887731310592",
+        "websiteUri": "https://locations.tropicalsmoothiecafe.com/ny/staten-island/7001-amboy-road?y_source=1_MTM4MTk4NjctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 49,
+        "displayName": {
+            "text": "Tropical Smoothie Cafe",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Juice Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "juice_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55feabbef2b:0x1c7beff44c76e000!3e0",
+            "placeUri": "https://maps.google.com/?cid=2052497887731310592",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55feabbef2b:0x1c7beff44c76e000!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55feabbef2b:0x1c7beff44c76e000!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55feabbef2b:0x1c7beff44c76e000!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7001 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 371-0077",
+        "internationalPhoneNumber": "+1 718-371-0077",
+        "formattedAddress": "7339 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5110112,
+            "longitude": -74.242012
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=5734661738541954634",
+        "websiteUri": "https://www.rockyspizzany.com/",
+        "userRatingCount": 29,
+        "displayName": {
+            "text": "Rocky's Pizza Bar",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cb00137ecff9:0x4f959c77b8d1364a!3e0",
+            "placeUri": "https://maps.google.com/?cid=5734661738541954634",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb00137ecff9:0x4f959c77b8d1364a!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cb00137ecff9:0x4f959c77b8d1364a!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb00137ecff9:0x4f959c77b8d1364a!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "30"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7339 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "acai_shop",
+            "brazilian_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 360-5005",
+        "internationalPhoneNumber": "+1 718-360-5005",
+        "formattedAddress": "6833 Amboy Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.519271499999995,
+            "longitude": -74.2297005
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=15221913410061671957",
+        "websiteUri": "https://bayabar.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 140,
+        "displayName": {
+            "text": "Baya Bar - Acai & Smoothie Shop",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55a77e4ec8d:0xd33f1998e87b1e15!3e0",
+            "placeUri": "https://maps.google.com/?cid=15221913410061671957",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55a77e4ec8d:0xd33f1998e87b1e15!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55a77e4ec8d:0xd33f1998e87b1e15!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55a77e4ec8d:0xd33f1998e87b1e15!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "6833 Amboy Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "bar_and_grill",
+            "bar",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 554-4027",
+        "internationalPhoneNumber": "+1 718-554-4027",
+        "formattedAddress": "507 Seguine Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5136879,
+            "longitude": -74.1963332
+        },
+        "rating": 4.7,
+        "googleMapsUri": "https://maps.google.com/?cid=5744227190119895150",
+        "websiteUri": "http://www.therockhouserocks.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 61,
+        "displayName": {
+            "text": "the Rock House bar and grill",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Bar & Grill",
+            "languageCode": "en-US"
+        },
+        "primaryType": "bar_and_grill",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c24b7f295956a9:0x4fb79831f83c906e!3e0",
+            "placeUri": "https://maps.google.com/?cid=5744227190119895150",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c24b7f295956a9:0x4fb79831f83c906e!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c24b7f295956a9:0x4fb79831f83c906e!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c24b7f295956a9:0x4fb79831f83c906e!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "30"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309-3939",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "507 Seguine Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "diner",
+            "breakfast_restaurant",
+            "american_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 966-3500",
+        "internationalPhoneNumber": "+1 718-966-3500",
+        "formattedAddress": "75 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.522379,
+            "longitude": -74.234616
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=3397410398868074555",
+        "websiteUri": "http://pageplazarestaurant.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 979,
+        "displayName": {
+            "text": "Page Plaza Diner",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Diner",
+            "languageCode": "en-US"
+        },
+        "primaryType": "diner",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55b4f658b83:0x2f2606c1ecbff03b!3e0",
+            "placeUri": "https://maps.google.com/?cid=3397410398868074555",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b4f658b83:0x2f2606c1ecbff03b!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55b4f658b83:0x2f2606c1ecbff03b!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b4f658b83:0x2f2606c1ecbff03b!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309-2611",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "75 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "brunch_restaurant",
+            "pizza_restaurant",
+            "catering_service",
+            "meal_delivery",
+            "food_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-8582",
+        "internationalPhoneNumber": "+1 718-227-8582",
+        "formattedAddress": "31 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5236777,
+            "longitude": -74.234417
+        },
+        "rating": 4.8,
+        "googleMapsUri": "https://maps.google.com/?cid=6404117679997364429",
+        "websiteUri": "https://tuttoappostosi.com/",
+        "userRatingCount": 106,
+        "displayName": {
+            "text": "Tutto Apposto Cucina Italiana",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5df54a9e2cb:0x58dfff19780aa8cd!3e0",
+            "placeUri": "https://maps.google.com/?cid=6404117679997364429",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5df54a9e2cb:0x58dfff19780aa8cd!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5df54a9e2cb:0x58dfff19780aa8cd!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5df54a9e2cb:0x58dfff19780aa8cd!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "31 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "banquet_hall",
+            "night_club",
+            "bar",
+            "event_venue",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 984-9888",
+        "internationalPhoneNumber": "+1 718-984-9888",
+        "formattedAddress": "249 Richmond Valley Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.521538199999995,
+            "longitude": -74.2371969
+        },
+        "rating": 4.6,
+        "googleMapsUri": "https://maps.google.com/?cid=3653747040139101514",
+        "websiteUri": "http://www.thegrandatrubyfalls.com/",
+        "userRatingCount": 145,
+        "displayName": {
+            "text": "The Grand at Ruby Falls",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Banquet hall",
+            "languageCode": "en-US"
+        },
+        "primaryType": "banquet_hall",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b544b3f32dcf:0x32b4b7931aa0454a!3e0",
+            "placeUri": "https://maps.google.com/?cid=3653747040139101514",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b544b3f32dcf:0x32b4b7931aa0454a!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b544b3f32dcf:0x32b4b7931aa0454a!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b544b3f32dcf:0x32b4b7931aa0454a!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "249 Richmond Valley Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 317-0373",
+        "internationalPhoneNumber": "+1 718-317-0373",
+        "formattedAddress": "86 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.522105599999996,
+            "longitude": -74.2355278
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=14107775009902028209",
+        "websiteUri": "https://ziototo.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 273,
+        "displayName": {
+            "text": "Zio Toto Restaurant and Bar",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55b5fbbf317:0xc3c8e2a01457e5b1!3e0",
+            "placeUri": "https://maps.google.com/?cid=14107775009902028209",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b5fbbf317:0xc3c8e2a01457e5b1!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55b5fbbf317:0xc3c8e2a01457e5b1!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b5fbbf317:0xc3c8e2a01457e5b1!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "86 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "pizza_restaurant",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(929) 284-4004",
+        "internationalPhoneNumber": "+1 929-284-4004",
+        "formattedAddress": "185 Bricktown Way, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5308065,
+            "longitude": -74.2310481
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=17862650361532464460",
+        "websiteUri": "https://www.milliesoldworld.com/location/staten-island/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 572,
+        "displayName": {
+            "text": "Millie's of Staten Island",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5462e7f9f7f:0xf7e4e1dd0a253d4c!3e0",
+            "placeUri": "https://maps.google.com/?cid=17862650361532464460",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5462e7f9f7f:0xf7e4e1dd0a253d4c!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5462e7f9f7f:0xf7e4e1dd0a253d4c!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5462e7f9f7f:0xf7e4e1dd0a253d4c!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "185 Bricktown Way"
+            ]
+        }
+    },
+    {
+        "types": [
+            "mediterranean_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 984-0006",
+        "internationalPhoneNumber": "+1 718-984-0006",
+        "formattedAddress": "45 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.523280199999995,
+            "longitude": -74.2344858
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=1591216851644639181",
+        "websiteUri": "https://www.lailarestaurant.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 715,
+        "displayName": {
+            "text": "Laila Restaurant And Lounge",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Mediterranean Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "mediterranean_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b53104c0cf0b:0x1615234bc2e4e7cd!3e0",
+            "placeUri": "https://maps.google.com/?cid=1591216851644639181",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b53104c0cf0b:0x1615234bc2e4e7cd!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b53104c0cf0b:0x1615234bc2e4e7cd!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b53104c0cf0b:0x1615234bc2e4e7cd!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "45 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(929) 744-1575",
+        "internationalPhoneNumber": "+1 929-744-1575",
+        "formattedAddress": "4916 Arthur Kill Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5222396,
+            "longitude": -74.2390518
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=10536852862508439991",
+        "websiteUri": "https://www.patrizias.com/location/patrizias-of-tottenville/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 409,
+        "displayName": {
+            "text": "Patrizia's Of Tottenville",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b568b523b839:0x923a6bda105f99b7!3e0",
+            "placeUri": "https://maps.google.com/?cid=10536852862508439991",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b568b523b839:0x923a6bda105f99b7!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b568b523b839:0x923a6bda105f99b7!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b568b523b839:0x923a6bda105f99b7!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "4916 Arthur Kill Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "breakfast_restaurant",
+            "coffee_shop",
+            "cafe",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 448-0276",
+        "internationalPhoneNumber": "+1 718-448-0276",
+        "formattedAddress": "4916 Arthur Kill Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5221939,
+            "longitude": -74.23887530000002
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=13538305455364592291",
+        "websiteUri": "https://www.beansandleavescafe.com/",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 70,
+        "displayName": {
+            "text": "Beans and Leaves Coffee and Tea Cafe",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Breakfast Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "breakfast_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b59f06d9afb7:0xbbe1b91527bd52a3!3e0",
+            "placeUri": "https://maps.google.com/?cid=13538305455364592291",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b59f06d9afb7:0xbbe1b91527bd52a3!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b59f06d9afb7:0xbbe1b91527bd52a3!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b59f06d9afb7:0xbbe1b91527bd52a3!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "4916 Arthur Kill Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-0002",
+        "internationalPhoneNumber": "+1 718-227-0002",
+        "formattedAddress": "4864 Arthur Kill Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5235329,
+            "longitude": -74.2385178
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=1838292524613926472",
+        "websiteUri": "http://www.auntbutchiesofbrooklyn.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 590,
+        "displayName": {
+            "text": "Aunt Butchie's of Brooklyn",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55d2b721a77:0x1982ed4fbade7e48!3e0",
+            "placeUri": "https://maps.google.com/?cid=1838292524613926472",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55d2b721a77:0x1982ed4fbade7e48!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55d2b721a77:0x1982ed4fbade7e48!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55d2b721a77:0x1982ed4fbade7e48!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "30"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "4864 Arthur Kill Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "dessert_shop",
+            "confectionery",
+            "bakery",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 313-5420",
+        "internationalPhoneNumber": "+1 718-313-5420",
+        "formattedAddress": "2955 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5273545,
+            "longitude": -74.23255999999999
+        },
+        "rating": 4.8,
+        "googleMapsUri": "https://maps.google.com/?cid=7667150267163627085",
+        "websiteUri": "https://crumblcookies.com/nysouthshorecommons?utm_source=google+business&utm_medium=profile&utm_campaign=CRUMBL-US+%7C+GOOGLE+BUSINESS+%7C+STORE+PAGE+%7C+ONGOING+%7C+CONSIDERATION+%7C+PROFILE",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 970,
+        "displayName": {
+            "text": "Crumbl - South Shore Commons",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Dessert Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "dessert_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5786a7fec3f:0x6a67308bb1d44e4d!3e0",
+            "placeUri": "https://maps.google.com/?cid=7667150267163627085",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5786a7fec3f:0x6a67308bb1d44e4d!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5786a7fec3f:0x6a67308bb1d44e4d!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5786a7fec3f:0x6a67308bb1d44e4d!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2955 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(917) 970-1341",
+        "internationalPhoneNumber": "+1 917-970-1341",
+        "formattedAddress": "95 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5219753,
+            "longitude": -74.2345899
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=18019361503470931718",
+        "websiteUri": "http://palermopizzasi.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 195,
+        "displayName": {
+            "text": "Palermo Pizza",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5088bbc62e1:0xfa11a1d115bbcf06!3e0",
+            "placeUri": "https://maps.google.com/?cid=18019361503470931718",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5088bbc62e1:0xfa11a1d115bbcf06!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5088bbc62e1:0xfa11a1d115bbcf06!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5088bbc62e1:0xfa11a1d115bbcf06!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "95 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "fast_food_restaurant",
+            "hamburger_restaurant",
+            "ice_cream_shop",
+            "dessert_shop",
+            "confectionery",
+            "american_restaurant",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 317-6642",
+        "internationalPhoneNumber": "+1 718-317-6642",
+        "formattedAddress": "148 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5207848,
+            "longitude": -74.2356069
+        },
+        "rating": 3.7,
+        "googleMapsUri": "https://maps.google.com/?cid=5059982512976382463",
+        "websiteUri": "https://www.sonicdrivein.com/locations/us/ny/staten-island/148-page-avenue/store-6405/?utm_source=google%20my%20business&utm_medium=organic&utm_campaign=website%20link",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 1222,
+        "displayName": {
+            "text": "Sonic Drive-In",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Fast Food Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "fast_food_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55b78bf159f:0x4638ab495fa549ff!3e0",
+            "placeUri": "https://maps.google.com/?cid=5059982512976382463",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b78bf159f:0x4638ab495fa549ff!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55b78bf159f:0x4638ab495fa549ff!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b78bf159f:0x4638ab495fa549ff!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "148 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "coffee_shop",
+            "internet_cafe",
+            "cafe",
+            "breakfast_restaurant",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-1090",
+        "internationalPhoneNumber": "+1 718-356-1090",
+        "formattedAddress": "106 Page Avenue, Richmond Valley Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.521637000000005,
+            "longitude": -74.23552099999999
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=7457212769661669936",
+        "websiteUri": "https://www.starbucks.com/store-locator/store/116567/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 381,
+        "displayName": {
+            "text": "Starbucks",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Coffee Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "coffee_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55b66973717:0x677d57810630d230!3e0",
+            "placeUri": "https://maps.google.com/?cid=7457212769661669936",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b66973717:0x677d57810630d230!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55b66973717:0x677d57810630d230!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b66973717:0x677d57810630d230!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "1"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "106 Page Avenue",
+                "Richmond Valley Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "seafood_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-0003",
+        "internationalPhoneNumber": "+1 718-227-0003",
+        "formattedAddress": "4707 Arthur Kill Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5280519,
+            "longitude": -74.2400102
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=16038095952902168048",
+        "websiteUri": "http://www.lobsterhousesi.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 575,
+        "displayName": {
+            "text": "Lobster House Joe's",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Seafood Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "seafood_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5423d0b7997:0xde92c34bb25d1df0!3e0",
+            "placeUri": "https://maps.google.com/?cid=16038095952902168048",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5423d0b7997:0xde92c34bb25d1df0!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5423d0b7997:0xde92c34bb25d1df0!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5423d0b7997:0xde92c34bb25d1df0!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309-2506",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "4707 Arthur Kill Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "restaurant",
+            "bakery",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 395-1533",
+        "internationalPhoneNumber": "+1 718-395-1533",
+        "formattedAddress": "2935 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.526613,
+            "longitude": -74.23141369999999
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=9432920855776414526",
+        "websiteUri": "https://www.filoncino.com/",
+        "userRatingCount": 74,
+        "displayName": {
+            "text": "Filoncino Cafe - Tottenville",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5004e0fe91b:0x82e8778a62ed4b3e!3e0",
+            "placeUri": "https://maps.google.com/?cid=9432920855776414526",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5004e0fe91b:0x82e8778a62ed4b3e!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5004e0fe91b:0x82e8778a62ed4b3e!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5004e0fe91b:0x82e8778a62ed4b3e!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309-2519",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2935 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 954-9504",
+        "internationalPhoneNumber": "+1 718-954-9504",
+        "formattedAddress": "96 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.521937099999995,
+            "longitude": -74.2356348
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=13916466175018431504",
+        "websiteUri": "https://www.serenanyc.com/",
+        "userRatingCount": 40,
+        "displayName": {
+            "text": "Serena Bistro and Lounge",
+            "languageCode": "en"
+        },
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55c9f952887:0xc1213840eab67410!3e0",
+            "placeUri": "https://maps.google.com/?cid=13916466175018431504",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55c9f952887:0xc1213840eab67410!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55c9f952887:0xc1213840eab67410!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55c9f952887:0xc1213840eab67410!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "96 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "mexican_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(929) 529-8500",
+        "internationalPhoneNumber": "+1 929-529-8500",
+        "formattedAddress": "4895 Arthur Kill Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5228813,
+            "longitude": -74.2395523
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=10493820637246226390",
+        "websiteUri": "https://www.hobrahtacos.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 290,
+        "displayName": {
+            "text": "Ho' Brah",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Mexican Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "mexican_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b596d1b66377:0x91a18a455bb97fd6!3e0",
+            "placeUri": "https://maps.google.com/?cid=10493820637246226390",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b596d1b66377:0x91a18a455bb97fd6!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b596d1b66377:0x91a18a455bb97fd6!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b596d1b66377:0x91a18a455bb97fd6!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "4895 Arthur Kill Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "dessert_shop",
+            "confectionery",
+            "restaurant",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 865-1185",
+        "internationalPhoneNumber": "+1 718-865-1185",
+        "formattedAddress": "2935 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.526613,
+            "longitude": -74.23141369999999
+        },
+        "rating": 5,
+        "googleMapsUri": "https://maps.google.com/?cid=2164693524184698248",
+        "userRatingCount": 28,
+        "displayName": {
+            "text": "Crepe N Tea",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Dessert Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "dessert_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b57d60d92221:0x1e0a894a8c9e0d88!3e0",
+            "placeUri": "https://maps.google.com/?cid=2164693524184698248",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b57d60d92221:0x1e0a894a8c9e0d88!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b57d60d92221:0x1e0a894a8c9e0d88!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b57d60d92221:0x1e0a894a8c9e0d88!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309-2519",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2935 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "event_venue",
+            "banquet_hall",
+            "wedding_venue",
+            "catering_service",
+            "food_delivery",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(347) 681-6435",
+        "internationalPhoneNumber": "+1 347-681-6435",
+        "formattedAddress": "60 S Bridge St, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5247503,
+            "longitude": -74.2366866
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=12258182831690718707",
+        "websiteUri": "http://www.arianassouth.com/",
+        "userRatingCount": 218,
+        "displayName": {
+            "text": "Ariana's South",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Event Venue",
+            "languageCode": "en-US"
+        },
+        "primaryType": "event_venue",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b543137194cf:0xaa1dd056bab79df3!3e0",
+            "placeUri": "https://maps.google.com/?cid=12258182831690718707",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b543137194cf:0xaa1dd056bab79df3!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b543137194cf:0xaa1dd056bab79df3!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b543137194cf:0xaa1dd056bab79df3!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "60 S Bridge St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "bakery",
+            "food_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 269-0494",
+        "internationalPhoneNumber": "+1 718-269-0494",
+        "formattedAddress": "245 Richmond Valley Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.521682,
+            "longitude": -74.2368563
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=11431632452693430442",
+        "websiteUri": "http://sals-bakery.edan.io/",
+        "userRatingCount": 153,
+        "displayName": {
+            "text": "Sal's Bakery",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Bakery",
+            "languageCode": "en-US"
+        },
+        "primaryType": "bakery",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b575cfaa0ca9:0x9ea55125f99e90aa!3e0",
+            "placeUri": "https://maps.google.com/?cid=11431632452693430442",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b575cfaa0ca9:0x9ea55125f99e90aa!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b575cfaa0ca9:0x9ea55125f99e90aa!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b575cfaa0ca9:0x9ea55125f99e90aa!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "245 Richmond Valley Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(646) 718-7777",
+        "internationalPhoneNumber": "+1 646-718-7777",
+        "formattedAddress": "95 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5219753,
+            "longitude": -74.2345899
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=10230391950632091429",
+        "websiteUri": "http://www.flowerlabcoffee.com/",
+        "userRatingCount": 14,
+        "displayName": {
+            "text": "Flower Lab Coffee",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Coffee Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "coffee_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5002329f1ef:0x8df9a746b270ff25!3e0",
+            "placeUri": "https://maps.google.com/?cid=10230391950632091429",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5002329f1ef:0x8df9a746b270ff25!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5002329f1ef:0x8df9a746b270ff25!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5002329f1ef:0x8df9a746b270ff25!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "1"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "95 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "catering_service",
+            "food_delivery",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-2258",
+        "internationalPhoneNumber": "+1 718-227-2258",
+        "formattedAddress": "286 Richmond Valley Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.520944899999996,
+            "longitude": -74.23878069999999
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=5547459175430844094",
+        "websiteUri": "https://www.286south.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 203,
+        "displayName": {
+            "text": "Waterside Grand",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Caterer",
+            "languageCode": "en-US"
+        },
+        "primaryType": "catering_service",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cb821f87fd4d:0x4cfc88ba75896ebe!3e0",
+            "placeUri": "https://maps.google.com/?cid=5547459175430844094",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb821f87fd4d:0x4cfc88ba75896ebe!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cb821f87fd4d:0x4cfc88ba75896ebe!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cb821f87fd4d:0x4cfc88ba75896ebe!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "286 Richmond Valley Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "japanese_restaurant",
+            "sushi_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(929) 833-7333",
+        "internationalPhoneNumber": "+1 929-833-7333",
+        "formattedAddress": "51 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5231707,
+            "longitude": -74.23456809999999
+        },
+        "rating": 4.8,
+        "googleMapsUri": "https://maps.google.com/?cid=9518869005115734278",
+        "websiteUri": "https://yahosushi.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 64,
+        "displayName": {
+            "text": "Yaho Sushi",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Japanese Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "japanese_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b53f22db7e99:0x8419d0ed51663906!3e0",
+            "placeUri": "https://maps.google.com/?cid=9518869005115734278",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b53f22db7e99:0x8419d0ed51663906!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b53f22db7e99:0x8419d0ed51663906!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b53f22db7e99:0x8419d0ed51663906!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309-2611",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "51 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "coffee_shop",
+            "bagel_shop",
+            "donut_shop",
+            "fast_food_restaurant",
+            "meal_takeaway",
+            "breakfast_restaurant",
+            "bakery",
+            "cafe",
+            "food_store",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(646) 247-3086",
+        "internationalPhoneNumber": "+1 646-247-3086",
+        "formattedAddress": "In ShopRite, 2449 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.527290300000004,
+            "longitude": -74.2318427
+        },
+        "rating": 3.7,
+        "googleMapsUri": "https://maps.google.com/?cid=919133906451961978",
+        "websiteUri": "https://locations.dunkindonuts.com/en/ny/staten-island/2449-veterans-rd-w/356135?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=356135&y_source=1_MTIxMDk1OTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 74,
+        "displayName": {
+            "text": "Dunkin'",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Coffee Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "coffee_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b546abdf68d1:0xcc16b6b0b16187a!3e0",
+            "placeUri": "https://maps.google.com/?cid=919133906451961978",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b546abdf68d1:0xcc16b6b0b16187a!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b546abdf68d1:0xcc16b6b0b16187a!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b546abdf68d1:0xcc16b6b0b16187a!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "1"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "In ShopRite",
+                "2449 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "chinese_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 967-9819",
+        "internationalPhoneNumber": "+1 718-967-9819",
+        "formattedAddress": "85 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.522214999999996,
+            "longitude": -74.234599
+        },
+        "rating": 3.7,
+        "googleMapsUri": "https://maps.google.com/?cid=3748707975180223199",
+        "websiteUri": "http://loonchuansi.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 162,
+        "displayName": {
+            "text": "Loon Chuan Chinese Restaurant",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Chinese Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "chinese_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55b4464a1ff:0x3406160abb4a82df!3e0",
+            "placeUri": "https://maps.google.com/?cid=3748707975180223199",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b4464a1ff:0x3406160abb4a82df!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55b4464a1ff:0x3406160abb4a82df!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55b4464a1ff:0x3406160abb4a82df!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "85 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "sushi_restaurant",
+            "japanese_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 966-1200",
+        "internationalPhoneNumber": "+1 718-966-1200",
+        "formattedAddress": "4906 Arthur Kill Rd, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5225076,
+            "longitude": -74.2385513
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=9055871326431164697",
+        "websiteUri": "https://www.avocadosushinewyork.com/twezv5ea/restaurant/order-online",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 178,
+        "displayName": {
+            "text": "Avocado Sushi",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Sushi Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "sushi_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55d205d536f:0x7daceafdc7933919!3e0",
+            "placeUri": "https://maps.google.com/?cid=9055871326431164697",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55d205d536f:0x7daceafdc7933919!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55d205d536f:0x7daceafdc7933919!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55d205d536f:0x7daceafdc7933919!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "4906 Arthur Kill Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "cafe",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 701-6205",
+        "internationalPhoneNumber": "+1 718-701-6205",
+        "formattedAddress": "2900 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.528712899999995,
+            "longitude": -74.2326377
+        },
+        "googleMapsUri": "https://maps.google.com/?cid=11918327826074374025",
+        "displayName": {
+            "text": "Target Caf\u00e9",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Cafe",
+            "languageCode": "en-US"
+        },
+        "primaryType": "cafe",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b500621df59f:0xa566680305d10f89!3e0",
+            "placeUri": "https://maps.google.com/?cid=11918327826074374025",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b500621df59f:0xa566680305d10f89!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b500621df59f:0xa566680305d10f89!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b500621df59f:0xa566680305d10f89!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2900 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "coffee_shop",
+            "bagel_shop",
+            "donut_shop",
+            "fast_food_restaurant",
+            "meal_takeaway",
+            "breakfast_restaurant",
+            "bakery",
+            "cafe",
+            "food_store",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 984-3717",
+        "internationalPhoneNumber": "+1 718-984-3717",
+        "formattedAddress": "2965 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5274882,
+            "longitude": -74.2341005
+        },
+        "rating": 3.1,
+        "googleMapsUri": "https://maps.google.com/?cid=16534715817091688079",
+        "websiteUri": "https://locations.dunkindonuts.com/en/ny/staten-island/2965-veterans-rd-w/345822?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=345822&y_source=1_MTIxMTQ4NTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 26,
+        "displayName": {
+            "text": "Dunkin'",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Coffee Shop",
+            "languageCode": "en-US"
+        },
+        "primaryType": "coffee_shop",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b54e0097bbcf:0xe5771c6e53c8668f!3e0",
+            "placeUri": "https://maps.google.com/?cid=16534715817091688079",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b54e0097bbcf:0xe5771c6e53c8668f!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b54e0097bbcf:0xe5771c6e53c8668f!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b54e0097bbcf:0xe5771c6e53c8668f!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2965 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(212) 470-2277",
+        "internationalPhoneNumber": "+1 212-470-2277",
+        "formattedAddress": "3010 Veterans Rd W West, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.52915,
+            "longitude": -74.23499699999999
+        },
+        "rating": 4.1,
+        "googleMapsUri": "https://maps.google.com/?cid=10839318361336692631",
+        "websiteUri": "https://www.valduccispizza.com/?y_source=1_MTAwMTYyODY0NS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 37,
+        "displayName": {
+            "text": "Valducci's Pizza",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5d691353d27:0x966cfe9ed6d7bf97!3e0",
+            "placeUri": "https://maps.google.com/?cid=10839318361336692631",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5d691353d27:0x966cfe9ed6d7bf97!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5d691353d27:0x966cfe9ed6d7bf97!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5d691353d27:0x966cfe9ed6d7bf97!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "3010 Veterans Rd W West"
+            ]
+        }
+    },
+    {
+        "types": [
+            "florist",
+            "dessert_shop",
+            "confectionery",
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(732) 707-7990",
+        "internationalPhoneNumber": "+1 732-707-7990",
+        "formattedAddress": "95 Page Ave, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.5219208,
+            "longitude": -74.2346834
+        },
+        "rating": 5,
+        "googleMapsUri": "https://maps.google.com/?cid=17470034969245050571",
+        "websiteUri": "https://www.theflowerlab.nyc/",
+        "userRatingCount": 16,
+        "displayName": {
+            "text": "The Flower Lab. New York",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Florist",
+            "languageCode": "en-US"
+        },
+        "primaryType": "florist",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cbe4190e7e07:0xf272083e8b80e6cb!3e0",
+            "placeUri": "https://maps.google.com/?cid=17470034969245050571",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbe4190e7e07:0xf272083e8b80e6cb!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cbe4190e7e07:0xf272083e8b80e6cb!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbe4190e7e07:0xf272083e8b80e6cb!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1920",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "95 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "fast_food_restaurant",
+            "barbecue_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "sandwich_shop",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 966-1555",
+        "internationalPhoneNumber": "+1 718-966-1555",
+        "formattedAddress": "245 Richmond Valley Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.521682,
+            "longitude": -74.2368563
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=15963125932310119508",
+        "websiteUri": "https://www.larosachicken.com/richmond-valley-staten-island-ny",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 200,
+        "displayName": {
+            "text": "La Rosa Chicken & Grill - Richmond Valley",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Fast Food Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "fast_food_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b55cf4e7e761:0xdd886a758c2bc454!3e0",
+            "placeUri": "https://maps.google.com/?cid=15963125932310119508",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55cf4e7e761:0xdd886a758c2bc454!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b55cf4e7e761:0xdd886a758c2bc454!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b55cf4e7e761:0xdd886a758c2bc454!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-2622",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "245 Richmond Valley Rd"
+            ]
+        }
+    },
+    {
+        "types": [
+            "fast_food_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 550-2806",
+        "internationalPhoneNumber": "+1 718-550-2806",
+        "formattedAddress": "45 Page Ave, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.523280199999995,
+            "longitude": -74.2344858
+        },
+        "rating": 4.9,
+        "googleMapsUri": "https://maps.google.com/?cid=6357958012368407206",
+        "userRatingCount": 14,
+        "displayName": {
+            "text": "Uncle Sal's Burgers and Wings",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Fast Food Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "fast_food_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5006b54f699:0x583c012058114aa6!3e0",
+            "placeUri": "https://maps.google.com/?cid=6357958012368407206",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5006b54f699:0x583c012058114aa6!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5006b54f699:0x583c012058114aa6!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5006b54f699:0x583c012058114aa6!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "45 Page Ave"
+            ]
+        }
+    },
+    {
+        "types": [
+            "department_store",
+            "electronics_store",
+            "child_care_agency",
+            "furniture_store",
+            "home_improvement_store",
+            "home_goods_store",
+            "shoe_store",
+            "clothing_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 701-6205",
+        "internationalPhoneNumber": "+1 718-701-6205",
+        "formattedAddress": "2900 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5287437,
+            "longitude": -74.23235319999999
+        },
+        "rating": 4,
+        "googleMapsUri": "https://maps.google.com/?cid=4065686398649796377",
+        "websiteUri": "https://www.target.com/sl/staten-island/2006",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 676,
+        "displayName": {
+            "text": "Target",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Department Store",
+            "languageCode": "en-US"
+        },
+        "primaryType": "department_store",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b54682df35d7:0x386c383d17a88719!3e0",
+            "placeUri": "https://maps.google.com/?cid=4065686398649796377",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b54682df35d7:0x386c383d17a88719!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b54682df35d7:0x386c383d17a88719!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b54682df35d7:0x386c383d17a88719!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309-2500",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2900 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "pizza_restaurant",
+            "meal_delivery",
+            "food_delivery",
+            "meal_takeaway",
+            "italian_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-2500",
+        "internationalPhoneNumber": "+1 718-356-2500",
+        "formattedAddress": "2935 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.526585,
+            "longitude": -74.23093399999999
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=12708625822454082182",
+        "websiteUri": "http://www.prontopizzany.com/",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 320,
+        "displayName": {
+            "text": "Pronto Pizza Pasta",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Pizza Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "pizza_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b543d0ca142b:0xb05e1bda32bb6a86!3e0",
+            "placeUri": "https://maps.google.com/?cid=12708625822454082182",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b543d0ca142b:0xb05e1bda32bb6a86!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b543d0ca142b:0xb05e1bda32bb6a86!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b543d0ca142b:0xb05e1bda32bb6a86!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "10"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "20"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2935 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "art_studio",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 210-1786",
+        "internationalPhoneNumber": "+1 718-210-1786",
+        "formattedAddress": "2965 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.527166099999995,
+            "longitude": -74.2316158
+        },
+        "rating": 4.9,
+        "googleMapsUri": "https://maps.google.com/?cid=523864077284622063",
+        "websiteUri": "https://boardandbrush.com/statenisland?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=181",
+        "userRatingCount": 43,
+        "displayName": {
+            "text": "Board & Brush Creative Studio - Staten Island",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Home Goods Store",
+            "languageCode": "en-US"
+        },
+        "primaryType": "home_goods_store",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5ca5b4a7fff:0x745239a4d233eef!3e0",
+            "placeUri": "https://maps.google.com/?cid=523864077284622063",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5ca5b4a7fff:0x745239a4d233eef!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5ca5b4a7fff:0x745239a4d233eef!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5ca5b4a7fff:0x745239a4d233eef!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2965 Veterans Rd W"
+            ]
+        }
+    },
+    {
+        "types": [
+            "hamburger_restaurant",
+            "american_restaurant",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "formattedAddress": "2935 Veterans Rd W, Staten Island, NY 10309, USA",
+        "location": {
+            "latitude": 40.5266428,
+            "longitude": -74.23104070000001
+        },
+        "googleMapsUri": "https://maps.google.com/?cid=17906646238151765909",
+        "displayName": {
+            "text": "FairBurger",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Hamburger Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "hamburger_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3b5007e465f87:0xf8812fe14f9eef95!3e0",
+            "placeUri": "https://maps.google.com/?cid=17906646238151765909",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5007e465f87:0xf8812fe14f9eef95!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3b5007e465f87:0xf8812fe14f9eef95!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3b5007e465f87:0xf8812fe14f9eef95!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10309",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "2935 Veterans Rd W"
+            ]
+        }
+    }
+]

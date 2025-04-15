@@ -10,3 +10,7 @@ __pycache__/
 
 # Outros arquivos temporários ou de configuração que podem ser gerados pelo editor
 .vscode/
+
+# Credenciais
+credentials.json
+token.json
