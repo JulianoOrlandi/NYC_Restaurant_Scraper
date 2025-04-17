@@ -16,7 +16,7 @@ place_name = "New York, New York, USA"
 num_divisions = 30
 quadrants = create_quadrants(place_name, num_divisions)
 
-# 4.1 Preparing the parameters for the API request
+# 4. Preparing the parameters for the API request
 url = "https://places.googleapis.com/v1/places:searchText"
 
 headers = {

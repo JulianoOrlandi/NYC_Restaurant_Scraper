@@ -24,3 +24,5 @@ contagem_json.py
 convert_json_to_csv.py
 teste.ipynb
 places_api_sample_response.odt
+requirements.txt
+results/nyc_restaurants_04_11_2025_17_03_49.json
