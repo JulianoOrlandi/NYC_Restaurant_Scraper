@@ -1,0 +1,221 @@
+[
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 356-3501",
+        "internationalPhoneNumber": "+1 718-356-3501",
+        "formattedAddress": "722 Rockaway St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.499243199999995,
+            "longitude": -74.2390059
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=10376182995744753772",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 223,
+        "displayName": {
+            "text": "Coral Bay Cafe",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!3e0",
+            "placeUri": "https://maps.google.com/?cid=10376182995744753772",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cabdd72c97f1:0x8fff9b7591d0886c!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1817",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "722 Rockaway St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-2900",
+        "internationalPhoneNumber": "+1 718-227-2900",
+        "formattedAddress": "399 Ellis St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.513480699999995,
+            "longitude": -74.2515884
+        },
+        "rating": 4.4,
+        "googleMapsUri": "https://maps.google.com/?cid=15654868475702358741",
+        "websiteUri": "http://angelinasristorante.com/",
+        "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+        "userRatingCount": 930,
+        "displayName": {
+            "text": "Angelina's Restaurant",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!3e0",
+            "placeUri": "https://maps.google.com/?cid=15654868475702358741",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3ca9d1079e177:0xd94143ef83b332d5!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "399 Ellis St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "seafood_restaurant",
+            "bar_and_grill",
+            "brunch_restaurant",
+            "bar",
+            "event_venue",
+            "dessert_restaurant",
+            "restaurant",
+            "sports_club",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(845) 827-3460",
+        "internationalPhoneNumber": "+1 845-827-3460",
+        "formattedAddress": "225 Ellis St, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.515519399999995,
+            "longitude": -74.24934979999999
+        },
+        "rating": 4,
+        "googleMapsUri": "https://maps.google.com/?cid=1890050969035067112",
+        "websiteUri": "https://paradiseislandsiny.org/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 177,
+        "displayName": {
+            "text": "Paradise Island",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Seafood Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "seafood_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!3e0",
+            "placeUri": "https://maps.google.com/?cid=1890050969035067112",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3cbe780528221:0x1a3acf57a8b7cee8!10e5"
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1128",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "225 Ellis St"
+            ]
+        }
+    },
+    {
+        "types": [
+            "italian_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "nationalPhoneNumber": "(718) 227-7200",
+        "internationalPhoneNumber": "+1 718-227-7200",
+        "formattedAddress": "7324 Amboy Rd, Staten Island, NY 10307, USA",
+        "location": {
+            "latitude": 40.510988,
+            "longitude": -74.2413948
+        },
+        "rating": 4.5,
+        "googleMapsUri": "https://maps.google.com/?cid=17273815899986538932",
+        "websiteUri": "http://delucasitalian.com/",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 688,
+        "displayName": {
+            "text": "Deluca's Italian Restaurant",
+            "languageCode": "en"
+        },
+        "primaryTypeDisplayName": {
+            "text": "Italian Restaurant",
+            "languageCode": "en-US"
+        },
+        "primaryType": "italian_restaurant",
+        "googleMapsLinks": {
+            "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!3e0",
+            "placeUri": "https://maps.google.com/?cid=17273815899986538932",
+            "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!12e1",
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!9m1!1b1",
+            "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x89c3caa1d86a5555:0xefb8ec0a5a3131b4!10e5"
+        },
+        "priceRange": {
+            "startPrice": {
+                "currencyCode": "USD",
+                "units": "50"
+            },
+            "endPrice": {
+                "currencyCode": "USD",
+                "units": "100"
+            }
+        },
+        "postalAddress": {
+            "regionCode": "US",
+            "languageCode": "en-US",
+            "postalCode": "10307-1401",
+            "administrativeArea": "New York",
+            "locality": "Staten Island",
+            "addressLines": [
+                "7324 Amboy Rd"
+            ]
+        }
+    }
+]
