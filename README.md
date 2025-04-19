@@ -1,31 +1,32 @@
 # **NEW YORK CITY RESTAURANT SCRAPER**
 
-### **Autor: Juliano Orlandi**
+### **Author: Juliano Orlandi**
 
 <br>
 
 ### **Description:**
 
-Este script implementa a busca automatizada de dados sobre resturantes na cidade de Nova Iorque, utilizando a [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview) do Google. O objetivo final é construir uma base de dados contendo informações como endereço, telefone, horário de funcionamento, avaliações de clientes, entre outras.
+This script implements automated data retrieval of restaurants in New York City, using Google's [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). The ultimate goal is to build a database containing information such as address, phone number, business hours, customer reviews, and more.
 
-O código principal se encontra no arquivo [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py). No entanto, ele faz uso de um conjunto de funções auxiliares disponíveis no arquivo [helpers.py](helpers.py). Para fins didáticos, a explicação a seguir acompanha a estrutura do código principal. À medida que as funções auxiliares forem aparecendo, suas respectivas implementações no arquivo de suporte serão explicadas.
+The main code can be found in the file [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py). However, it relies on a set of helper functions available in the file [helpers.py](helpers.py). For educational purposes, the following explanation accompanies the structure of the main code. As the helper functions appear, their respective implementations in the supporting file will be explained.
 
 ---
+
 <br>
 
 ### **1. Imports**
 
-No arquivo [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py), são importadas principalmente as funções definidas no arquivo [helpers.py](helpers.py). As dependências utilizadas são as seguintes:
+In the file [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py), the functions defined in the file [helpers.py](helpers.py) are primarily imported. The dependencies used are as follows:
 
-| Requisito                | Versão |
-|---------------------------|--------|
-| **Python**                | 3.11.9 |
-| **google_auth_oauthlib**  | 1.2.1  |
-| **osmnx**                 | 2.0.2  |
-| **pandas**                | 2.2.3  |
-| **protobuf**              | 6.30.2 |
-| **Requests**              | 2.32.3 |
-| **Shapely**               | 2.1.0  |
+| Requirement              | Version |
+|--------------------------|---------|
+| **Python**               | 3.11.9  |
+| **google_auth_oauthlib** | 1.2.1   |
+| **osmnx**                | 2.0.2   |
+| **pandas**               | 2.2.3   |
+| **protobuf**             | 6.30.2  |
+| **Requests**             | 2.32.3  |
+| **Shapely**              | 2.1.0   |
 
 
 ---
@@ -33,122 +34,119 @@ No arquivo [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py), são importad
 
 ### **2. Get Google's API access_token**
 
-Antes de utilizar a função `get_access_token()`, que está presente na única linha de código deste trecho, é necessário criar um projeto no [Google Cloud Console](https://console.cloud.google.com/), habilitar o uso da [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview), configurar a tela de consentimento do OAuth, gerar as credenciais apropriadas e fazer o download do arquivo `credentials.json`. Abaixo está o passo a passo deste processo. Antes de prosseguir, no entanto, é importante deixar claro:
+Before using the `get_access_token()` function, which is present in the only line of code in this section, you need to create a project in the [Google Cloud Console](https://console.cloud.google.com/), enable the use of the [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview), configure the OAuth consent screen, generate the appropriate credentials, and download the `credentials.json` file. Below is the step-by-step process for this. However, before proceeding, it is important to make it clear:
 
-⚠️ **O uso da Places API (New) é pago!** Você será cobrado no seu cartão de crédito com base no número de requisições feitas pela sua aplicação. Para mais detalhes sobre os custos, consulte o [Item 4 abaixo](#4-preparing-the-parameters-for-the-api-request) ou [a documentação oficial da API](https://mapsplatform.google.com/intl/en-US/pricing/).
+⚠️ **The use of the Places API (New) is paid!** You will be charged to your credit card based on the number of requests made by your application. For more details on costs, refer to [Item 4 below](#4-preparing-the-parameters-for-the-api-request) or [the official API documentation](https://mapsplatform.google.com/intl/en-US/pricing/).
 
-#### **2.1. Criar um projeto no Google Cloud Console:**
-- Acesse o [Google Cloud Console](https://console.cloud.google.com/);
-- Clique em "Select a project" no topo da tela;
-- Clique em "New Project";
-- Preencha o `Project Name`;
-- Clique em `Create`.
+#### **2.1. Create a project in Google Cloud Console:**
+- Go to the [Google Cloud Console](https://console.cloud.google.com/);
+- Click on "Select a project" at the top of the screen;
+- Click on "New Project";
+- Fill in the `Project Name`;
+- Click `Create`.
 
-#### **2.2. Habilitar o uso da Places API (New):**
-- No menu de navegação (canto superior esquerdo), clique em `APIs & Services > Library`;
-- Na barra de busca, pesquise `Places API (New)`;
-- Clique na opção correspondente;
-- Ative a API, clicando em `Enable`;
-- Clique em `Go to Google Cloud Plataform`;
-- Clique em `Maybe later`;
+#### **2.2. Enable Places API (New):**
+- In the navigation menu (top-left corner), click `APIs & Services > Library`;
+- In the search bar, search for `Places API (New)`;
+- Click on the corresponding option;
+- Enable the API by clicking `Enable`;
+- Click `Go to Google Cloud Platform`;
+- Click `Maybe later`;
 
-#### **2.3. Configurar a tela de consentimento do OAuth:**
-- No menu de navegação (canto superior esquerdo), clique em `APIs & Services > OAuth consent screen`;
-- Clique em `Get started`;
-- Preencha o `App Name`;
-- Escolha seu endereço de e-mail em `User support email`;
-- Escolha `external` em `Audience`;
-- Coloque seu endereço de e-mail em `Contact information`;
-- Marque que concorda com a [Google API Services: User Data Policy](https://developers.google.com/terms/api-services-user-data-policy) em `Finish`;
-- Clique em `Create`.
+#### **2.3. Configure the OAuth consent screen:**
+- In the navigation menu (top-left corner), click `APIs & Services > OAuth consent screen`;
+- Click `Get started`;
+- Fill in the `App Name`;
+- Choose your email address in `User support email`;
+- Choose `external` in `Audience`;
+- Enter your email address in `Contact information`;
+- Agree to the [Google API Services: User Data Policy](https://developers.google.com/terms/api-services-user-data-policy) under `Finish`;
+- Click `Create`.
 
-#### **2.3. Gerar as credenciais:**
-- No menu de navegação (canto superior esquerdo), clique em `APIs & Services > Credentials`;
-- Clique em `Create credentials > OAuth client ID`;
-- Em `Application Type`, escolha `Desktop App`;
-- Preencha o `Name`;
-- Clique em `Create`;
-- Na tela `OAuth client created`, clique em `Download JSON`;
-- Salve o arquivo baixado com o nome `credentials.json` na raiz do seu projeto.
+#### **2.3. Generate credentials:**
+- In the navigation menu (top-left corner), click `APIs & Services > Credentials`;
+- Click `Create credentials > OAuth client ID`;
+- In `Application Type`, choose `Desktop App`;
+- Fill in the `Name`;
+- Click `Create`;
+- In the `OAuth client created` screen, click `Download JSON`;
+- Save the downloaded file as `credentials.json` at the root of your project.
 
 <br>
 
-A função `get_access_token()` recebe três parâmetros:
-- `credentials_file` (str): Caminho para o arquivo JSON com as credenciais OAuth 2.0;
-- `token_file` (str): Caminho onde o token gerado será armazenado para uso futuro;
-- `scopes` (list): Lista de permissões (escopos) que a aplicação precisará para acessar a API do Google.
+The `get_access_token()` function takes three parameters:
+- `credentials_file` (str): Path to the JSON file with the OAuth 2.0 credentials;
+- `token_file` (str): Path where the generated token will be stored for future use;
+- `scopes` (list): List of permissions (scopes) the application will need to access the Google API.
 
-Se o parâmetro `scopes` não for fornecido, o valor padrão será o escopo mais amplo (`'https://www.googleapis.com/auth/cloud-platform'`), permitindo o acesso à plataforma do Google Cloud. A função verifica então se já existe um arquivo de token válido. Caso exista, o token é carregado e retornado. Se não houver um token válido ou se o token estiver expirado, o processo de autenticação é iniciado utilizando as credenciais do arquivo `credentials.json`. A função salva o token obtido em `token.json`para uso futuro e o retorna para a variável `access_token` em [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py).
+If the `scopes` parameter is not provided, the default value will be the broadest scope (`'https://www.googleapis.com/auth/cloud-platform'`), allowing access to the Google Cloud platform. The function then checks if a valid token file already exists. If it does, the token is loaded and returned. If there is no valid token or if the token is expired, the authentication process is initiated using the credentials from the `credentials.json` file. The obtained token is saved in `token.json` for future use and returned to the `access_token` variable in [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py).
 
 ---
 <br>
 
 ### **3. Subdividing the city into quadrants to narrow down the search area**
 
-O objetivo deste trecho do código é gerar uma lista de tuplas, onde cada item representa um quadrante geográfico válido dentro dos limites da cidade. Cada tupla contém duas sub-tuplas, com dois valores cada: latitude e longitude. A primeira sub-tupla corresponde ao vértice sudoeste do quadrante e a segunda ao vértice nordeste.
-Esses valores serão utilizados para delimitar as áreas em que as requisições à API serão feitas — mais sobre isso no [item 4](#4-preparing-the-parameters-for-the-api-request).
+The goal of this part of the code is to generate a list of tuples, where each item represents a valid geographical quadrant within the city limits. Each tuple contains two sub-tuples, each with two values: latitude and longitude. The first sub-tuple corresponds to the southwest vertex of the quadrant and the second to the northeast vertex. These values will be used to define the areas in which API requests will be made — more on this in [item 4](#4-preparing-the-parameters-for-the-api-request).
 
-Um exemplo do formato de retorno seria: `[((40.7, -74.0), (40.72, -73.98)), ((40.72, -74.0), (40.74, -73.98)), ...]`.
+An example of the return format would be: `[((40.7, -74.0), (40.72, -73.98)), ((40.72, -74.0), (40.74, -73.98)), ...]`.
 
-O nome da cidade é passado como string para uma variável chamada `place_name`. Ele deve seguir o formato `"Cidade, Estado (ou Região), País"`, pois isso facilita o trabalho do serviço de geocodificação interno da biblioteca `OSMnx`: [**Nominatim**](https://nominatim.openstreetmap.org/) (pertencente ao `OpenStreetMap`). Além de `place_name`, também é passado um número inteiro para a variável `num_divisions`, que define em quantas partes (ou quadrantes) cada lado do mapa da cidade será dividido. No código, foi utilizada uma divisão de 30 x 30, totalizando 900 quadrantes.
+The city name is passed as a string to a variable called `place_name`. It should follow the format `"City, State (or Region), Country"`, as this helps the internal geocoding service of the `OSMnx` library: [**Nominatim**](https://nominatim.openstreetmap.org/) (belonging to `OpenStreetMap`). In addition to `place_name`, an integer is passed to the variable `num_divisions`, which defines how many parts (or quadrants) each side of the city map will be divided into. In the code, a 30 x 30 division was used, totaling 900 quadrants.
 
-Nas primeiras linhas da função `create_quadrants()`, o código utiliza a biblioteca `OSMnx` para obter os limites geográficos da cidade como um polígono (`city_polygon`). Em seguida, calcula as dimensões de cada quadrante com base no valor de `num_divisions` e inicia um laço para gerar as coordenadas (latitude e longitude) dos vértices sudoeste e nordeste de cada quadrante em que o mapa será dividido. Antes de adicionar essas coordenadas à lista `quadr_val` — que será retornada ao final da função — o código verifica se o quadrante se intersecta com os limites do polígono da cidade. Caso haja interseção, o quadrante é incluído na lista; caso contrário, é descartado.
+In the first lines of the `create_quadrants()` function, the code uses the `OSMnx` library to get the geographical boundaries of the city as a polygon (`city_polygon`). Then, it calculates the dimensions of each quadrant based on the value of `num_divisions` and starts a loop to generate the coordinates (latitude and longitude) of the southwest and northeast vertices of each quadrant that the city map will be divided into. Before adding these coordinates to the list `quadr_val` — which will be returned at the end of the function — the code checks if the quadrant intersects with the city's polygon boundaries. If there is an intersection, the quadrant is included in the list; otherwise, it is discarded.
 
 <div style="text-align: center;">
-  <img src="images/nyc_quadrants.png" alt="NYC Quadrants" width="600"/>
+  <img src="images/nyc_quadrants.png" alt="NYC Quadrants" width="500"/>
 </div>
 
 <br>
 
-A razão pela qual é necessário dividir o mapa da cidade em vários quadrantes está diretamente relacionada ao funcionamento da [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). Cada requisição feita à API retorna, no máximo, **20** itens dentro da área especificada. Caso existam mais resultados, a resposta incluirá também um valor na variável `pageToken`. Esse token permite realizar uma nova requisição para obter os itens seguintes. Se ainda houver resultados, a API retorna um novo `pageToken`, permitindo uma terceira e última chamada. O problema é que existe um limite de três páginas por requisição, o que significa que no máximo **60** itens podem ser retornados por área consultada. Por exemplo: se a requisição for feita utilizando coordenadas que abrangem toda a cidade de Nova Iorque, a resposta conterá apenas **20** resultados iniciais, mais duas páginas adicionais com até **20** itens cada — totalizando apenas **60** locais. Isso é insuficiente para capturar todos os restaurantes da cidade. É por isso que a subdivisão da área em quadrantes é fundamental: ela reduz a área de cada requisição, aumentando a chance de obter todos os itens presentes em cada região. Vale observar ainda que o mapa retangular utilizado para a divisão pode incluir áreas fora da cidade — como regiões vizinhas ou até partes do oceano. Por isso, a função `create_quadrants()` verifica se cada quadrante gerado se intersecta com os limites reais do polígono da cidade. Apenas os quadrantes válidos são incluídos na busca, evitando requisições inúteis.
+The reason why it is necessary to divide the city's map into several quadrants is directly related to how the [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview) works. Each request made to the API returns a maximum of **20** items within the specified area. If there are more results, the response will also include a value in the `pageToken` variable. This token allows a new request to be made to fetch the subsequent items. If there are still results, the API returns a new `pageToken`, allowing a third and final call. The problem is that there is a limit of three pages per request, meaning that a maximum of **60** items can be returned per queried area. For example: if the request is made using coordinates that cover the entire city of New York, the response will contain only **20** initial results, plus two additional pages with up to **20** items each — totaling just **60** locations. This is insufficient to capture all the restaurants in the city. This is why dividing the area into quadrants is crucial: it reduces the area of each request, increasing the chance of retrieving all items present in each region. It is also worth noting that the rectangular map used for division can include areas outside the city — such as neighboring regions or even parts of the ocean. Therefore, the `create_quadrants()` function checks if each generated quadrant intersects with the actual boundaries of the city's polygon. Only valid quadrants are included in the search, avoiding unnecessary requests.
 
 ---
 <br>
 
 ### **4. Preparing the parameters for the API request**
 
-Após gerar os quadrantes válidos para consulta, o próximo passo consiste em configurar os parâmetros que serão utilizados nas requisições feitas à [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). Essa configuração ocorre por meio de duas variáveis: `url` e `headers`, que representam, respectivamente, o **endpoint da API** e os **cabeçalhos HTTP** necessários para autenticação e formatação da requisição.
+After generating the valid quadrants for querying, the next step is to configure the parameters that will be used in requests to the [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). This configuration is done through two variables: `url` and `headers`, which represent, respectively, the **API endpoint** and the **HTTP headers** necessary for authentication and request formatting.
 
-O endpoint `https://places.googleapis.com/v1/places:searchText` permite realizar buscas de lugares com base em termos textuais, como por exemplo: "restaurant", "pharmacy", "supermarket", etc. Esse é o mesmo tipo de busca que se faria manualmente na caixa de pesquisa do **Google Maps**. A resposta da API retorna locais compatíveis com o termo pesquisado, levando em consideração a área geográfica delimitada nos parâmetros da requisição. Como o objetivo deste script é obter dados de **todos** os estabelecimentos de uma determinada categoria, é recomendável escolher o termo de busca entre os tipos listados na própria documentação da API. A lista completa se encontra na [Tabela A](https://developers.google.com/maps/documentation/places/web-service/place-types).
+The endpoint `https://places.googleapis.com/v1/places:searchText` allows searching for places based on textual terms, such as "restaurant", "pharmacy", "supermarket", etc. This is the same type of search you would perform manually in the **Google Maps** search box. The API response returns places matching the search term, considering the geographic area defined in the request parameters. Since the goal of this script is to obtain data for **all** establishments of a given category, it is recommended to choose the search term from the types listed in the API's documentation. The full list can be found in [Table A](https://developers.google.com/maps/documentation/places/web-service/place-types).
 
-A variável `headers` define os **cabeçalhos HTTP** que acompanham cada requisição feita à API, sendo essencial para garantir tanto a autenticação quanto a correta formatação dos dados. O campo `Authorization` utiliza o token de acesso gerado anteriormente pela função `get_access_token()`, no formato `Bearer`, que é o padrão adotado pelo protocolo OAuth 2.0. Já o campo `Content-Type` é definido como "application/json", indicando que o corpo da requisição será enviado no formato JSON, como exigido pela [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). O campo `X-Goog-FieldMask` especifica exatamente quais campos se deseja receber na resposta: o nome, o telefone, o endereço, a avaliação dos usuários, etc. A lista com todos os campos está disponível na [documentação do Text Search](https://developers.google.com/maps/documentation/places/web-service/text-search).
+The `headers` variable defines the **HTTP headers** that accompany each request to the API, which are essential to ensure both authentication and proper data formatting. The `Authorization` field uses the access token generated earlier by the `get_access_token()` function, in the `Bearer` format, which is the standard adopted by the OAuth 2.0 protocol. The `Content-Type` field is set to "application/json", indicating that the request body will be sent in JSON format, as required by the [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). The `X-Goog-FieldMask` field specifies exactly which fields you want to receive in the response: name, phone, address, user ratings, etc. The full list of fields is available in the [Text Search documentation](https://developers.google.com/maps/documentation/places/web-service/text-search).
 
-⚠️ É preciso frisar que os possíveis campos de resposta da API estão organizados pelo **Google** em diferentes categorias chamadas de `SKUs` (**Stock Keeping Units**), que funcionam como unidades de tarifação. Cada `SKU` corresponde a um conjunto de funcionalidades ou informações específicas fornecidas pela API. O uso de cada uma tem um custo associado, e os preços variam de acordo com a complexidade e o valor dos dados fornecidos. Isso significa que quanto mais campos forem incluídos no parâmetro `X-Goog-FieldMask`, maior será o custo por requisição.
+⚠️ It is important to emphasize that the possible response fields from the API are organized by **Google** into different categories called `SKUs` (**Stock Keeping Units**), which function as billing units. Each `SKU` corresponds to a set of specific features or information provided by the API. The use of each one has an associated cost, and the prices vary depending on the complexity and value of the data provided. This means that the more fields are included in the `X-Goog-FieldMask` parameter, the higher the cost per request.
 
-⚠️ Um exemplo ajuda a esclarecer. Se uma requisição for feita com os campos `places.displayName` e `places.formattedAddress`, que estão associados a `Text Search Pro SKU`, o custo será na data de hoje (18/04/2025) de **$0,032** por requisição — já que, conforme a [tabela oficial](https://mapsplatform.google.com/intl/en-US/pricing/) de preços da API, 1000 chamadas dessa SKU custam **$32**. Por outro lado, se uma requisição for feita com os campos `places.priceRange` e `places.rating`, vinculados à `Text Search Enterprise SKU`, o custo será de **$0,035**, pois 1000 chamadas dessa SKU custam **$35**.
+⚠️ An example helps to clarify. If a request is made with the fields `places.displayName` and `places.formattedAddress`, which are associated with the `Text Search Pro SKU`, the cost today (04/18/2025) is **$0.032** per request — since, according to the [official pricing table](https://mapsplatform.google.com/intl/en-US/pricing/), 1000 calls to this SKU cost **$32**. On the other hand, if a request is made with the fields `places.priceRange` and `places.rating`, linked to the `Text Search Enterprise SKU`, the cost is **$0.035**, as 1000 calls to this SKU cost **$35**.
 
-⚠️ Agora — e aqui está o ponto mais importante —, se uma mesma requisição incluir os **quatro campos mencionados acima, ela acionará duas SKUs simultaneamente**. Nesse caso, o custo total da chamada será de **$0,067**: **$0,032** referentes aos campos da `Text Search Pro SKU` somados aos **$0,035** dos campos da `Text Search Enterprise SKU`. É fundamental estar atento a essa dinâmica de tarifação, pois, com um volume elevado de requisições, os custos podem escalar de forma bastante significativa. Portanto, antes de definir os campos desejados na resposta, é altamente recomendável consultar a documentação oficial e estimar os custos com base no volume esperado de chamadas.
+⚠️ Now — and here is the most important point —, if the same request includes the **four fields mentioned above, it will trigger two SKUs simultaneously**. In this case, the total cost of the call will be **$0.067**: **$0.032** for the fields from the `Text Search Pro SKU` plus **$0.035** from the `Text Search Enterprise SKU`. It is crucial to be aware of this billing dynamics, as with a high volume of requests, the costs can scale quite significantly. Therefore, before defining the desired fields in the response, it is highly recommended to consult the official documentation and estimate the costs based on the expected volume of calls.
 
-A variável `data_template` funciona como um molde para a construção do corpo das requisições enviadas à [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). Ela contém os parâmetros que controlam a busca. O campo `textQuery` especifica o termo de interesse - por exemplo, "restaurant". Como discutido acima, é recomendável escolhê-lo entre os tipos listados na [documentação da API](https://developers.google.com/maps/documentation/places/web-service/place-types). Já o campo `locationRestriction` define a área geográfica em que a busca deve ocorrer. Ele é estruturado como um retângulo (`rectangle`) delimitado por dois pares de coordenadas geográficas. A chave `low` representa o vértice sudoeste e a chave `high` representa o vértice nordeste, sendo que ambas contêm valores explícitos de `latitude` e `longitude`. Por fim, o campo `pageToken` é utilizado para controlar a paginação das requisições e permite o acesso aos demais resultados da busca que não foram incluídos na resposta.
+The `data_template` variable serves as a template for constructing the body of the requests sent to the [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). It contains the parameters that control the search. The `textQuery` field specifies the term of interest — for example, "restaurant". As discussed above, it is recommended to choose it from the types listed in the [API documentation](https://developers.google.com/maps/documentation/places/web-service/place-types). The `locationRestriction` field defines the geographic area where the search should occur. It is structured as a rectangle (`rectangle`) delimited by two pairs of geographic coordinates. The `low` key represents the southwest vertex, and the `high` key represents the northeast vertex, both containing explicit values for `latitude` and `longitude`. Finally, the `pageToken` field is used to control the pagination of requests and allows access to the additional results of the search that were not included in the response.
 
-Há ainda mais duas variáveis criadas nesse trecho do código: `all_places` e `request_count`. A primeira é um lista que servirá para armazenar o conteúdo retornado pelas requisições. E a segunda é um `integer` utilizada para controlar o número de requisições feitas a [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview).
-
-
+There are also two more variables created in this part of the code: `all_places` and `request_count`. The first is a list that will store the content returned by the requests. The second is an `integer` used to track the number of requests made to the [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview).
 
 ---
 <br>
 
+
 ### **5. Loop through the quadrants to perform the search using the process_quadrant function**
 
-O script entra agora na etapa principal de execução: iterar sobre os quadrantes válidos da cidade e realizar as requisições à API. Essa operação é feita com um laço `for`, que percorre cada quadrante gerado anteriormente pela função `create_quadrants()`. Para cada item da lista `quadrants`, o código chama a função `process_quadrant()`, que recebe os seguintes parâmetros:
+The script now enters the main execution step: iterating over the valid quadrants of the city and making requests to the API. This operation is performed with a `for` loop, which iterates through each quadrant previously generated by the `create_quadrants()` function. For each item in the `quadrants` list, the code calls the `process_quadrant()` function, which receives the following parameters:
 
-- `sw` (tupla): (latitude, longitude) do canto sudoeste;
-- `ne` (tupla): (latitude, longitude) do canto nordeste;
-- `data_template` (dict): o molde de construção do corpo das requisições;
-- `url` (str): o endpoint da API;
-- `headers`(dict): os cabeçalhos HTTP que acomapanham a requisição;
-- `request_count` (int): a variável para controlar o número de requisições feitas.
+- `sw` (tuple): (latitude, longitude) of the southwest corner;
+- `ne` (tuple): (latitude, longitude) of the northeast corner;
+- `data_template` (dict): the template for constructing the body of the requests;
+- `url` (str): the API endpoint;
+- `headers` (dict): the HTTP headers that accompany the request;
+- `request_count` (int): the variable to control the number of requests made.
 
-A função `process_quadrant()` é responsável por realizar a requisição à API e retornar os resultados encontrados dentro de um determinado quadrante. Em primeiro lugar, ela preenche os valores de latitude e longitude das chaves `low` e `high` do parâmetro `locationRestriction` do `data_template`, utilizando as tuplas `sw`e `ne`. Passa então esta variável junto com `headers` e `url` como os parâmetros da função `fetch_places_by_quadrant()`. É essa função que, de fato, realiza a chamada à API e retorna os resultados em uma lista chamada `places`. Além disso, ela gerencia automaticamente a paginação da API por meio da variável `next_page_token`, garantindo o acesso ao maior número possível de itens dentro da área geográfica consultada.
+The `process_quadrant()` function is responsible for making the API request and returning the results found within a given quadrant. First, it fills in the latitude and longitude values for the `low` and `high` keys of the `locationRestriction` parameter in `data_template`, using the `sw` and `ne` tuples. It then passes this variable along with `headers` and `url` as the parameters to the `fetch_places_by_quadrant()` function. This function actually makes the API call and returns the results in a list called `places`. Additionally, it automatically manages the API pagination through the `next_page_token` variable, ensuring access to as many items as possible within the queried geographic area.
 
-Após obter a lista de resultados, a função `process_quadrant()` verifica se ela contém exatamente 60 itens — o número máximo que pode ser retornado pela API em uma única sequência de requisições. Se isso ocorrer, o código assume que os dados foram truncados, o que indica que há mais estabelecimentos presentes naquela região do que foi possível obter com apenas três páginas. Para contornar essa limitação, a função chama `subdivide_quadrant()`, passando como argumentos as coordenadas dos cantos sudoeste e nordeste do quadrante original, além do número de divisões desejadas. Essa função divide o quadrante inicial em subáreas menores — no caso, nove subquadrantes — que são retornados como uma lista de coordenadas. A função `process_quadrant()` então itera sobre cada um desses subquadrantes, chamando a si mesma de forma recursiva para realizar novas requisições dentro dessas regiões menores. Essa abordagem garante que a limitação da [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview) quanto ao número máximo de itens por área seja contornada de maneira eficiente, permitindo que o script recupere todos os estabelecimentos de uma determinada categoria, mesmo em regiões densamente povoadas.
+After obtaining the list of results, the `process_quadrant()` function checks if it contains exactly 60 items — the maximum number that can be returned by the API in a single sequence of requests. If this happens, the code assumes that the data has been truncated, which indicates that there are more establishments in that area than could be obtained with just three pages. To work around this limitation, the function calls `subdivide_quadrant()`, passing the coordinates of the southwest and northeast corners of the original quadrant, as well as the number of divisions desired. This function divides the original quadrant into smaller subareas — in this case, nine subquadrants — which are returned as a list of coordinates. The `process_quadrant()` function then iterates over each of these subquadrants, calling itself recursively to make new requests within these smaller regions. This approach ensures that the limitation of the [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview) on the maximum number of items per area is efficiently bypassed, allowing the script to retrieve all establishments of a given category, even in densely populated regions.
 
-Por fim, os resultados coletados em cada iteração — incluindo os de subquadrantes, se houver — são agregados à lista `all_places`, que concentra todos os estabelecimentos encontrados ao longo da execução do script.
-
+Finally, the results collected in each iteration — including those from subquadrants, if any — are aggregated into the `all_places` list, which consolidates all the establishments found throughout the script's execution.
 
 ---
 <br>
 
 ### **6. Save the results to a JSON file after completing the search**
 
-Finalizada a coleta dos dados, os resultados são salvos usando a função `save_results_to_json()`. Ela recebe a lista `all_places` e grava o conteúdo em um arquivo `.json` dentro da pasta `results`. O nome do arquivo inclui data e hora da execução para evitar sobrescritas e manter o histórico organizado.
+After completing the data collection, the results are saved using the `save_results_to_json()` function. It takes the `all_places` list and writes the content to a `.json` file inside the `results` folder. The filename includes the date and time of the execution to prevent overwriting and keep the history organized.
