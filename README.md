@@ -4,6 +4,9 @@
 
 <br>
 
+⚠️ Click [here](LEIAME.md) for the portuguese version
+
+
 ### **Description:**
 
 This script implements automated data retrieval of restaurants in New York City, using Google's [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). The ultimate goal is to build a database containing information such as address, phone number, business hours, customer reviews, and more.

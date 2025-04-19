@@ -4,6 +4,9 @@
 
 <br>
 
+⚠️ Clique [aqui](README.md) para ver a versão em inglês
+
+
 ### **Descrição:**
 
 Este script implementa a busca automatizada de dados sobre resturantes na cidade de Nova Iorque, utilizando a [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview) do Google. O objetivo final é construir uma base de dados contendo informações como endereço, telefone, horário de funcionamento, avaliações de clientes, entre outras.
