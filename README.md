@@ -94,7 +94,11 @@ O nome da cidade é passado como string para uma variável chamada `place_name`.
 
 Nas primeiras linhas da função `create_quadrants()`, o código utiliza a biblioteca `OSMnx` para obter os limites geográficos da cidade como um polígono (`city_polygon`). Em seguida, calcula as dimensões de cada quadrante com base no valor de `num_divisions` e inicia um laço para gerar as coordenadas (latitude e longitude) dos vértices sudoeste e nordeste de cada quadrante em que o mapa será dividido. Antes de adicionar essas coordenadas à lista `quadr_val` — que será retornada ao final da função — o código verifica se o quadrante se intersecta com os limites do polígono da cidade. Caso haja interseção, o quadrante é incluído na lista; caso contrário, é descartado.
 
-![NYC Quadrants](images\nyc_quadrants.png)
+<div style="text-align: center;">
+  <img src="images/nyc_quadrants.png" alt="NYC Quadrants" width="600"/>
+</div>
+
+<br>
 
 A razão pela qual é necessário dividir o mapa da cidade em vários quadrantes está diretamente relacionada ao funcionamento da [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). Cada requisição feita à API retorna, no máximo, **20** itens dentro da área especificada. Caso existam mais resultados, a resposta incluirá também um valor na variável `pageToken`. Esse token permite realizar uma nova requisição para obter os itens seguintes. Se ainda houver resultados, a API retorna um novo `pageToken`, permitindo uma terceira e última chamada. O problema é que existe um limite de três páginas por requisição, o que significa que no máximo **60** itens podem ser retornados por área consultada. Por exemplo: se a requisição for feita utilizando coordenadas que abrangem toda a cidade de Nova Iorque, a resposta conterá apenas **20** resultados iniciais, mais duas páginas adicionais com até **20** itens cada — totalizando apenas **60** locais. Isso é insuficiente para capturar todos os restaurantes da cidade. É por isso que a subdivisão da área em quadrantes é fundamental: ela reduz a área de cada requisição, aumentando a chance de obter todos os itens presentes em cada região. Vale observar ainda que o mapa retangular utilizado para a divisão pode incluir áreas fora da cidade — como regiões vizinhas ou até partes do oceano. Por isso, a função `create_quadrants()` verifica se cada quadrante gerado se intersecta com os limites reais do polígono da cidade. Apenas os quadrantes válidos são incluídos na busca, evitando requisições inúteis.
 

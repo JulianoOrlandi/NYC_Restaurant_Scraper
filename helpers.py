@@ -259,8 +259,6 @@ def process_quadrant(sw, ne, data_template, url, headers, request_count=0):
         url (str): API endpoint.
         headers (dict): request headers.
         request_count (int): current count of requests made.
-        depth (int): recursion depth (for debug/logging).
-        max_depth (int): maximum allowed depth for recursion.
 
     Returns:
         tuple: (all_places_found, updated_request_count)
