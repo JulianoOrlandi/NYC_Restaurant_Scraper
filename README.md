@@ -94,6 +94,8 @@ O nome da cidade é passado como string para uma variável chamada `place_name`.
 
 Nas primeiras linhas da função `create_quadrants()`, o código utiliza a biblioteca `OSMnx` para obter os limites geográficos da cidade como um polígono (`city_polygon`). Em seguida, calcula as dimensões de cada quadrante com base no valor de `num_divisions` e inicia um laço para gerar as coordenadas (latitude e longitude) dos vértices sudoeste e nordeste de cada quadrante em que o mapa será dividido. Antes de adicionar essas coordenadas à lista `quadr_val` — que será retornada ao final da função — o código verifica se o quadrante se intersecta com os limites do polígono da cidade. Caso haja interseção, o quadrante é incluído na lista; caso contrário, é descartado.
 
+![NYC Quadrants](images\nyc_quadrants.png)
+
 A razão pela qual é necessário dividir o mapa da cidade em vários quadrantes está diretamente relacionada ao funcionamento da [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). Cada requisição feita à API retorna, no máximo, **20** itens dentro da área especificada. Caso existam mais resultados, a resposta incluirá também um valor na variável `pageToken`. Esse token permite realizar uma nova requisição para obter os itens seguintes. Se ainda houver resultados, a API retorna um novo `pageToken`, permitindo uma terceira e última chamada. O problema é que existe um limite de três páginas por requisição, o que significa que no máximo **60** itens podem ser retornados por área consultada. Por exemplo: se a requisição for feita utilizando coordenadas que abrangem toda a cidade de Nova Iorque, a resposta conterá apenas **20** resultados iniciais, mais duas páginas adicionais com até **20** itens cada — totalizando apenas **60** locais. Isso é insuficiente para capturar todos os restaurantes da cidade. É por isso que a subdivisão da área em quadrantes é fundamental: ela reduz a área de cada requisição, aumentando a chance de obter todos os itens presentes em cada região. Vale observar ainda que o mapa retangular utilizado para a divisão pode incluir áreas fora da cidade — como regiões vizinhas ou até partes do oceano. Por isso, a função `create_quadrants()` verifica se cada quadrante gerado se intersecta com os limites reais do polígono da cidade. Apenas os quadrantes válidos são incluídos na busca, evitando requisições inúteis.
 
 ---
@@ -131,7 +133,7 @@ O script entra agora na etapa principal de execução: iterar sobre os quadrante
 - `data_template` (dict): o molde de construção do corpo das requisições;
 - `url` (str): o endpoint da API;
 - `headers`(dict): os cabeçalhos HTTP que acomapanham a requisição;
--`request_count` (int): a variável para controlar o número de requisições feitas.
+- `request_count` (int): a variável para controlar o número de requisições feitas.
 
 A função `process_quadrant()` é responsável por realizar a requisição à API e retornar os resultados encontrados dentro de um determinado quadrante. Em primeiro lugar, ela preenche os valores de latitude e longitude das chaves `low` e `high` do parâmetro `locationRestriction` do `data_template`, utilizando as tuplas `sw`e `ne`. Passa então esta variável junto com `headers` e `url` como os parâmetros da função `fetch_places_by_quadrant()`. É essa função que, de fato, realiza a chamada à API e retorna os resultados em uma lista chamada `places`. Além disso, ela gerencia automaticamente a paginação da API por meio da variável `next_page_token`, garantindo o acesso ao maior número possível de itens dentro da área geográfica consultada.
 
@@ -144,3 +146,5 @@ Por fim, os resultados coletados em cada iteração — incluindo os de subquadr
 <br>
 
 ### **6. Save the results to a JSON file after completing the search**
+
+Finalizada a coleta dos dados, os resultados são salvos usando a função `save_results_to_json()`. Ela recebe a lista `all_places` e grava o conteúdo em um arquivo `.json` dentro da pasta `results`. O nome do arquivo inclui data e hora da execução para evitar sobrescritas e manter o histórico organizado.

@@ -17,7 +17,6 @@ token.json
 
 # Folders
 cache/
-images/
 
 # Specific files to ignore
 contagem_json.py
@@ -26,3 +25,8 @@ teste.ipynb
 places_api_sample_response.odt
 requirements.txt
 results/nyc_restaurants_04_11_2025_17_03_49.json
+images/Capa_Project_Upwork (1200 x 900 px).jpg
+images/csv_example.png
+images/google_sheets_example.png
+images/json_example.png
+images/pandas_example.png
