@@ -1,4 +1,4 @@
-# **NEW YORK CITY RESTAURANT SCRAPER**
+# **NEW YORK CITY RESTAURANTS DATA FETCHER**
 
 ### **Author: Juliano Orlandi**
 

@@ -22,7 +22,7 @@ url = "https://places.googleapis.com/v1/places:searchText"
 headers = {
     "Authorization": f"Bearer {access_token}",
     "Content-Type": "application/json",
-    "X-Goog-FieldMask": "places.accessibilityOptions,places.addressComponents,places.adrFormatAddress,places.businessStatus,places.containingPlaces,places.displayName,places.formattedAddress,places.googleMapsUri,places.iconBackgroundColor,places.iconMaskBaseUri,places.location,places.photos,places.plusCode,places.postalAddress,places.primaryType,places.primaryTypeDisplayName,places.pureServiceAreaBusiness,places.shortFormattedAddress,places.subDestinations,places.types,places.utcOffsetMinutes,places.viewport,places.currentOpeningHours,places.currentSecondaryOpeningHours,places.internationalPhoneNumber,places.nationalPhoneNumber,places.priceLevel,places.priceRange,places.rating,places.regularOpeningHours,places.regularSecondaryOpeningHours,places.userRatingCount,places.websiteUri,nextPageToken"
+    "X-Goog-FieldMask": "*"
 }
 
 # Request body parameters
@@ -64,6 +64,9 @@ for i, quadrant in enumerate(quadrants):
     
     # Add the found places to the overall list
     all_places.extend(places)
+    
+    if len(all_places) >= 10:
+        break
 
 # 6. Save the results to a JSON file after completing the search
 save_results_to_json(all_places)
