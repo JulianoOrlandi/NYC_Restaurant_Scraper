@@ -11,7 +11,7 @@
 
 This script implements automated data retrieval of restaurants in New York City, using Google's [Places API (New)](https://developers.google.com/maps/documentation/places/web-service/op-overview). The ultimate goal is to build a database containing information such as address, phone number, business hours, customer reviews, and more.
 
-The main code can be found in the file [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py). However, it relies on a set of helper functions available in the file [helpers.py](helpers.py). For educational purposes, the following explanation accompanies the structure of the main code. As the helper functions appear, their respective implementations in the supporting file will be explained.
+The main code can be found in the file [nyc_restaurants_data_fetcher.py](nyc_restaurants_data_fetcher.py). However, it relies on a set of helper functions available in the file [helpers.py](helpers.py). For educational purposes, the following explanation accompanies the structure of the main code. As the helper functions appear, their respective implementations in the supporting file will be explained.
 
 ---
 
@@ -19,7 +19,7 @@ The main code can be found in the file [nyc_restaurant_scraper.py](nyc_restauran
 
 ### **1. Imports**
 
-In the file [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py), the functions defined in the file [helpers.py](helpers.py) are primarily imported. The dependencies used are as follows:
+In the file [nyc_restaurants_data_fetcher.py](nyc_restaurants_data_fetcher.py), the functions defined in the file [helpers.py](helpers.py) are primarily imported. The dependencies used are as follows:
 
 | Requirement              | Version |
 |--------------------------|---------|
@@ -82,7 +82,7 @@ The `get_access_token()` function takes three parameters:
 - `token_file` (str): Path where the generated token will be stored for future use;
 - `scopes` (list): List of permissions (scopes) the application will need to access the Google API.
 
-If the `scopes` parameter is not provided, the default value will be the broadest scope (`'https://www.googleapis.com/auth/cloud-platform'`), allowing access to the Google Cloud platform. The function then checks if a valid token file already exists. If it does, the token is loaded and returned. If there is no valid token or if the token is expired, the authentication process is initiated using the credentials from the `credentials.json` file. The obtained token is saved in `token.json` for future use and returned to the `access_token` variable in [nyc_restaurant_scraper.py](nyc_restaurant_scraper.py).
+If the `scopes` parameter is not provided, the default value will be the broadest scope (`'https://www.googleapis.com/auth/cloud-platform'`), allowing access to the Google Cloud platform. The function then checks if a valid token file already exists. If it does, the token is loaded and returned. If there is no valid token or if the token is expired, the authentication process is initiated using the credentials from the `credentials.json` file. The obtained token is saved in `token.json` for future use and returned to the `access_token` variable in [nyc_restaurants_data_fetcher.py](nyc_restaurants_data_fetcher.py).
 
 ---
 <br>
